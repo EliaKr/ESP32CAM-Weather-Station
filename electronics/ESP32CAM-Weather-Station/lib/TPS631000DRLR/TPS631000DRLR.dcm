@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS631000DRLR
+D Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter
+K
+F https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265
+$ENDCMP
+#
+#End Doc Library
