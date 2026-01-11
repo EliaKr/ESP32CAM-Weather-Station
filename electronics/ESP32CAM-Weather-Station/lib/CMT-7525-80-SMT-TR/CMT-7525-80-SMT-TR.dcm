@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CMT-7525-80-SMT-TR
+D CMT-7525-80-SMT-TR - 7.5 mm, 3.6 Vo-p, 80 dB, Surface Mount (SMT), Magnetic Audio Transducer Buzzer
+K
+F https://www.sameskydevices.com/product/resource/CMT-7525-80-SMT-TR.pdf
+$ENDCMP
+#
+#End Doc Library

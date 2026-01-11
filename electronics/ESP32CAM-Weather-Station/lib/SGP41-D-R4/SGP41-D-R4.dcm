@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SGP41-D-R4
+D Air Quality Sensors VOC and NOx (MOX) Gas Pollutant Sensor
+K
+F https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9_Gas_Sensors/Datasheets/Sensirion_Gas_Sensors_Datasheet_SGP41.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MF-USHT125KX_12-2
+D Polymeric PTC Resettable Fuse 12V 1.25 A Ih Surface Mount 1210 (3225 Metric), Concave
+K
+F https://www.bourns.com/docs/product-datasheets/mf-usht.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BME688
+D Gas sensor measuring relative humidity, barometric pressure, ambient temperature and gas (VOC)
+K
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf
+$ENDCMP
+#
+#End Doc Library
