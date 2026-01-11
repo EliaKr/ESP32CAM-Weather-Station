@@ -2,8 +2,12 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 6bc60d23-a316-4f26-bc4a-25bfb2f5ce78)
-	(paper "A4")
+	(uuid "7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a")
+	(paper "A3")
+	(title_block
+		(title "ESP32CAM-Weather-Station")
+		(company "Ilias Kringos (ilkringos@gmail.com)")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
