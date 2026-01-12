@@ -20,4 +20,5 @@
   (lib (name "TPS631000DRLR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS631000DRLR")(options "")(descr ""))
   (lib (name "TPS63070RNMR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS63070RNMR")(options "")(descr ""))
   (lib (name "CSD16406Q3")(type "KiCad")(uri "${KIPRJMOD}/lib/CSD16406Q3")(options "")(descr ""))
+  (lib (name "DFE252012P-1R0M=P2")(type "KiCad")(uri "${KIPRJMOD}/lib/DFE252012P-1R0M=P2")(options "")(descr ""))
 )
