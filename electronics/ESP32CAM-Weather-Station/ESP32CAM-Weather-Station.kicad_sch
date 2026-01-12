@@ -1431,6 +1431,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1782,16 +1945,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "AI-Thinker"
+			(property "Description" "ESP32 ESP32 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) Evaluation Board"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1801,7 +1955,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "ESP32 ESP32 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) Evaluation Board"
+			(property "MF" "AI-Thinker"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4664,6 +4818,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 16.51 172.72)
@@ -4692,8 +5072,8 @@
 		(uuid 09966ca9-849c-4193-8a95-d95256f38030)
 	)
 	(rectangle
-		(start 177.8 130.81)
-		(end 241.3 172.72)
+		(start 177.8 140.97)
+		(end 241.3 182.88)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -4729,6 +5109,19 @@
 			(type none)
 		)
 		(uuid 5b48d4fa-2bf7-4fe6-b0b3-7e590cb560d1)
+	)
+	(rectangle
+		(start 124.46 214.63)
+		(end 227.33 251.46)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 72 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6d26d3e6-2eaf-472d-8987-b29fdaa936da)
 	)
 	(rectangle
 		(start 16.51 256.54)
@@ -4822,6 +5215,19 @@
 		(uuid d6ed4c7c-197d-4737-9603-611abbbb79ba)
 	)
 	(rectangle
+		(start 121.92 78.74)
+		(end 224.79 115.57)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 72 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f8bf5d19-330a-43d1-a92c-6e41c090f720)
+	)
+	(rectangle
 		(start 15.24 15.24)
 		(end 118.11 52.07)
 		(stroke
@@ -4906,6 +5312,18 @@
 		)
 		(uuid "514a4ad3-d20e-4de9-a5f3-3b1e1525221a")
 	)
+	(text "I2C Pullups"
+		(exclude_from_sim no)
+		(at 214.63 248.666 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "80c62075-a988-4163-865c-497626fcc0db")
+	)
 	(text "Indicators"
 		(exclude_from_sim no)
 		(at 393.446 55.626 0)
@@ -4917,6 +5335,18 @@
 			)
 		)
 		(uuid "85bd8809-8df0-4349-bcb4-ea1b5109b7eb")
+	)
+	(text "Direct Battery Connection"
+		(exclude_from_sim no)
+		(at 199.39 113.03 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "8b162f6b-4dc6-4a4e-be73-a0710788a78a")
 	)
 	(text "External Sensors/Hardware"
 		(exclude_from_sim no)
@@ -4932,7 +5362,7 @@
 	)
 	(text "ESP32-CAM"
 		(exclude_from_sim no)
-		(at 228.854 170.434 0)
+		(at 228.854 180.594 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4954,9 +5384,9 @@
 		)
 		(uuid "ae39caff-b014-40f2-8e8f-6fdb1d040160")
 	)
-	(text "Solar Input"
+	(text "Solar Input and Regulator"
 		(exclude_from_sim no)
-		(at 212.598 72.136 0)
+		(at 198.628 71.882 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4990,6 +5420,34 @@
 		)
 		(uuid "f3009a44-ad3f-490c-be69-427f429c1981")
 	)
+	(junction
+		(at 40.64 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "191ed0f2-f5a3-4b31-9c83-c9fa03df6de2")
+	)
+	(junction
+		(at 38.1 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3861dba4-a351-4b47-9fd2-69f68f5d2586")
+	)
+	(junction
+		(at 74.93 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91cd252c-76dd-44d0-808a-92f4c2ad3711")
+	)
+	(wire
+		(pts
+			(xy 39.37 33.02) (xy 38.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1190c736-2148-4e48-a5a5-9408119dd1c9")
+	)
 	(wire
 		(pts
 			(xy 325.12 49.53) (xy 330.2 49.53)
@@ -5002,6 +5460,76 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 228.6) (xy 200.66 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d5717f-b5fa-4ddc-b888-62d83aa8a062")
+	)
+	(wire
+		(pts
+			(xy 74.93 190.5) (xy 74.93 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2c0c18-d647-4355-b7fe-57ebd24d9a86")
+	)
+	(wire
+		(pts
+			(xy 139.7 236.22) (xy 148.59 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33875781-bd42-4472-8e34-1259d29c41ee")
+	)
+	(wire
+		(pts
+			(xy 74.93 181.61) (xy 77.47 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ecd9fe-b316-4fed-bc97-4299d407b07a")
+	)
+	(wire
+		(pts
+			(xy 148.59 228.6) (xy 157.48 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f3fad5-deb1-4b8a-94fc-a71994c4f975")
+	)
+	(wire
+		(pts
+			(xy 40.64 181.61) (xy 40.64 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d80963b-f311-4ac2-8c2c-e1758fa9508c")
+	)
+	(wire
+		(pts
+			(xy 166.37 96.52) (xy 176.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5864178c-1374-449b-9ff7-99b05c2909e3")
+	)
+	(wire
+		(pts
 			(xy 325.12 30.48) (xy 330.2 30.48)
 		)
 		(stroke
@@ -5009,6 +5537,380 @@
 			(type default)
 		)
 		(uuid "63b13dcb-1e88-4b0d-8920-06186184ffd3")
+	)
+	(wire
+		(pts
+			(xy 38.1 26.67) (xy 38.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f948e2a-8529-489c-a74e-383056534b1b")
+	)
+	(wire
+		(pts
+			(xy 182.88 236.22) (xy 191.77 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aafe279-d746-4d2f-8c71-363a891c1304")
+	)
+	(wire
+		(pts
+			(xy 40.64 190.5) (xy 40.64 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82cfed3a-eb11-49cf-bb54-73604d8f1e94")
+	)
+	(wire
+		(pts
+			(xy 74.93 191.77) (xy 80.01 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a000b0ae-d5a2-4320-820e-9aff78675d68")
+	)
+	(wire
+		(pts
+			(xy 43.18 181.61) (xy 40.64 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb83f537-209d-4b7c-8845-ff4610f44434")
+	)
+	(wire
+		(pts
+			(xy 176.53 99.06) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1208c5a-8ddd-45bf-9b2d-09e9f78c6410")
+	)
+	(wire
+		(pts
+			(xy 40.64 191.77) (xy 45.72 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3369b20-07a0-4fd6-9524-1082fb803338")
+	)
+	(wire
+		(pts
+			(xy 74.93 182.88) (xy 74.93 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1325a7-fc9a-45f1-9102-ced8ffaefe1f")
+	)
+	(label "VBAT_SNS"
+		(at 45.72 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d41de03-3c2a-4231-8ce5-03ca4cfe32f8")
+	)
+	(label "VSOLAR_SNS"
+		(at 80.01 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95d4725e-b2b8-476c-b159-9ade1413b301")
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 38.1 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "011aa09c-454b-4b4a-b6d7-c578bed50cb8")
+		(property "Reference" "#PWR01"
+			(at 38.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT_UNFUSED"
+			(at 38.1 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4a32ba1-9e17-44af-bbf2-d6c46449e1e0")
+		)
+		(instances
+			(project ""
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "016cdbb7-6813-4701-bec6-9d5468c837f3")
+		(property "Reference" "R4"
+			(at 43.18 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 43.18 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 38.862 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4afe6556-5f4c-4e79-b297-877b3c0a221a")
+		)
+		(pin "2"
+			(uuid "1235a196-e9d4-4aa6-b9f3-3675bc6f154b")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03ff9e83-a8a6-4731-a5b6-d6865db9fe3d")
+		(property "Reference" "R12"
+			(at 185.42 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 185.42 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 181.102 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9074083-c697-4090-9d8d-adc85b6fc6a8")
+		)
+		(pin "2"
+			(uuid "c386bf0d-4443-45d7-943b-08dfacf1e36d")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 161.29 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04932c64-0283-41f8-92db-6715324d693d")
+		(property "Reference" "J7"
+			(at 161.925 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 161.925 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec00deaa-c549-42e5-a174-470211aa985b")
+		)
+		(pin "1"
+			(uuid "6605bce9-8d52-4e3e-8bf0-e1c1ca271bbb")
+		)
+		(instances
+			(project ""
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "B4B-PH-SM4-TB_LF__SN_:B4B-PH-SM4-TB_LF__SN_")
@@ -5500,6 +6402,212 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 74.93 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a2636b6-ce7c-46c5-9204-1e1000cc7dec")
+		(property "Reference" "R7"
+			(at 77.47 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 77.47 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 73.152 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b0ecf68-2348-4ee9-b53b-94f82e37170a")
+		)
+		(pin "2"
+			(uuid "ef5b37df-bd26-4d98-b78f-c317b53eec85")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dbb93c9-3211-4d99-b147-074afd70be74")
+		(property "Reference" "#PWR04"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "187de172-fd8c-4729-9db2-d231e35a1c21")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 191.77 232.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32f3160a-770b-4cd5-a2f3-92eada1b18d6")
+		(property "Reference" "R13"
+			(at 194.31 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 194.31 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 193.548 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4369c975-9f61-4348-8044-3a0f5aa8f148")
+		)
+		(pin "2"
+			(uuid "15d1b1df-9721-47c6-9aa8-3a6fe6de9f4d")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 334.01 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5567,8 +6675,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 74.93 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "381195ba-341f-4fab-b8b7-6f0632bab766")
+		(property "Reference" "R6"
+			(at 77.47 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 77.47 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 73.152 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1df02ee8-8550-4c27-96d9-ccbdfa8322c7")
+		)
+		(pin "2"
+			(uuid "09072713-4a6d-45f7-a9ee-e74e1c5545b2")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 176.53 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3864cf52-fc97-4f42-a85e-7b923d19b0ff")
+		(property "Reference" "#PWR03"
+			(at 176.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT_UNFUSED"
+			(at 176.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ea7384b-2061-4d6c-b397-d5196159c93b")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ESP32-CAM:ESP32-CAM")
-		(at 209.55 158.75 0)
+		(at 209.55 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5577,7 +6821,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f76e32e-cce8-4e4e-bf4b-d8936e5dad18")
 		(property "Reference" "U1"
-			(at 209.55 135.89 0)
+			(at 209.55 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +6829,7 @@
 			)
 		)
 		(property "Value" "ESP32-CAM"
-			(at 209.55 138.43 0)
+			(at 209.55 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +6837,7 @@
 			)
 		)
 		(property "Footprint" "ESP32-CAM:ESP32-CAM"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +6847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,7 +6856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +6865,7 @@
 			)
 		)
 		(property "MF" "AI-Thinker"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +6875,7 @@
 			)
 		)
 		(property "DESCRIPTION" "ESP32 ESP32 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) Evaluation Board"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +6885,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +6895,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +6905,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +6915,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-CAM/AI-Thinker/view-part/?ref=eda"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +6925,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,7 +6935,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-CAM/AI-Thinker/view-part/?ref=snap"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +6945,7 @@
 			)
 		)
 		(property "MP" "ESP32-CAM"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,7 +6955,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +6965,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Not in stock"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,7 +6975,7 @@
 			)
 		)
 		(property "Description_1" "ESP32 ESP32 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) Evaluation Board"
-			(at 209.55 158.75 0)
+			(at 209.55 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,6 +7036,76 @@
 			(project ""
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fd7259d-a007-45f8-96d3-6936f7fe80cb")
+		(property "Reference" "R3"
+			(at 43.18 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 43.18 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 38.862 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f5d37e8-544b-4e04-8add-131fad331a9a")
+		)
+		(pin "2"
+			(uuid "d783aafa-6d7c-4b7e-b226-3d76eefed94f")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6287,6 +7601,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 200.66 232.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6462a940-1e78-46ed-8859-d626e391db93")
+		(property "Reference" "R14"
+			(at 203.2 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 203.2 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 202.438 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "467a4f45-d2e1-4908-b2e4-13556af5ae80")
+		)
+		(pin "2"
+			(uuid "5d8e4247-4365-463a-b4d4-f155cfdfc6f0")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BQ29707DSET:BQ29707DSET")
 		(at 73.66 30.48 0)
 		(unit 1)
@@ -6429,8 +7813,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 148.59 232.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68b50f57-2050-4bdb-bb0a-e09415fe7e55")
+		(property "Reference" "R10"
+			(at 151.13 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 151.13 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 150.368 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dbdcda7-e4a8-45bc-ac18-1a7638fc6393")
+		)
+		(pin "2"
+			(uuid "1fa41b0f-9675-4d69-a051-43e015c9a474")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69874968-85cb-4032-a327-096356aaa984")
+		(property "Reference" "R9"
+			(at 142.24 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 142.24 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 137.922 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bee66d8f-3bbb-4d9e-8088-44b08c9e02b6")
+		)
+		(pin "2"
+			(uuid "371d5010-4ef2-4cd7-90ec-11435fba90be")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SF-1206FP400-2:SF-1206FP400-2")
-		(at 38.1 33.02 0)
+		(at 39.37 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6439,7 +7963,7 @@
 		(fields_autoplaced yes)
 		(uuid "724613bb-0d66-460c-881a-d36b614aafa7")
 		(property "Reference" "F1"
-			(at 46.99 26.67 0)
+			(at 48.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +7971,7 @@
 			)
 		)
 		(property "Value" "SF-1206FP400-2"
-			(at 46.99 29.21 0)
+			(at 48.26 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,7 +7979,7 @@
 			)
 		)
 		(property "Footprint" "SF-1206FP400-2:FUSC3116X70N"
-			(at 52.07 31.75 0)
+			(at 53.34 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +7989,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/sf-1206fp400-2/bourns"
-			(at 52.07 34.29 0)
+			(at 53.34 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +7999,7 @@
 			)
 		)
 		(property "Description" "Surface Mount Fuses 4A Fast Acting 1206 Singlfuse"
-			(at 38.1 33.02 0)
+			(at 39.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +8008,7 @@
 			)
 		)
 		(property "Description_1" "Surface Mount Fuses 4A Fast Acting 1206 Singlfuse"
-			(at 52.07 36.83 0)
+			(at 53.34 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +8018,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 52.07 39.37 0)
+			(at 53.34 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +8028,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-SF-1206FP400-2"
-			(at 52.07 41.91 0)
+			(at 53.34 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +8038,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SF-1206FP400-2?qs=YCa%2FAAYMW02S8mWQc8TxNw%3D%3D"
-			(at 52.07 44.45 0)
+			(at 53.34 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +8048,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 52.07 46.99 0)
+			(at 53.34 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,7 +8058,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SF-1206FP400-2"
-			(at 52.07 49.53 0)
+			(at 53.34 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,6 +8361,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 81.28 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98644098-7f2d-4376-9553-9c527173a2a0")
+		(property "Reference" "R5"
+			(at 81.28 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 81.28 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 81.28 183.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc0002e2-d543-4d10-80bb-22af293ba7da")
+		)
+		(pin "2"
+			(uuid "f8faf822-91aa-4441-ba6b-707c2e2a0b36")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 321.31 30.48 180)
 		(unit 1)
@@ -6908,6 +8500,76 @@
 			(project ""
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 232.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d81c4e3-56ec-405c-a947-30bfee1b635f")
+		(property "Reference" "R11"
+			(at 160.02 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 159.258 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2be0ec3d-a41f-4c7f-9f0f-b53d61ee81fc")
+		)
+		(pin "2"
+			(uuid "840f8e6e-2598-407d-921c-91317017308b")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7195,6 +8857,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 38.1 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acc0b918-4ef5-46ba-9079-b66f4c4c3612")
+		(property "Reference" "#PWR02"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0ae406c-0b45-4a44-844b-6d5d09706283")
+		)
+		(instances
+			(project ""
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SIHLL110TR-GE3:SIHLL110TR-GE3")
 		(at 363.22 44.45 0)
 		(unit 1)
@@ -7325,6 +9053,73 @@
 			(project ""
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c32ce108-c5aa-4d8e-927c-b39c5e5189d0")
+		(property "Reference" "R8"
+			(at 46.99 175.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 46.99 178.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 46.99 183.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e749f36d-8cd4-4631-95a8-5d739dadec92")
+		)
+		(pin "2"
+			(uuid "6edd35f0-35b6-48b1-a66a-7fe889fd3ee0")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R8")
 					(unit 1)
 				)
 			)
