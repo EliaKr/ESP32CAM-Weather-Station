@@ -19,4 +19,5 @@
   (lib (name "XT30UPB-M")(type "KiCad")(uri "${KIPRJMOD}/lib/XT30UPB-M")(options "")(descr ""))
   (lib (name "TPS631000DRLR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS631000DRLR")(options "")(descr ""))
   (lib (name "TPS63070RNMR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS63070RNMR")(options "")(descr ""))
+  (lib (name "CSD16406Q3")(type "KiCad")(uri "${KIPRJMOD}/lib/CSD16406Q3")(options "")(descr ""))
 )

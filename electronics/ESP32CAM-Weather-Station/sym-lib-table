@@ -19,4 +19,5 @@
   (lib (name "XT30UPB-M")(type "KiCad")(uri "${KIPRJMOD}/lib/XT30UPB-M/XT30UPB-M.kicad_sym")(options "")(descr ""))
   (lib (name "TPS631000DRLR")(type "Legacy")(uri "${KIPRJMOD}/lib/TPS631000DRLR/TPS631000DRLR.lib")(options "")(descr ""))
   (lib (name "TPS63070RNMR")(type "Legacy")(uri "${KIPRJMOD}/lib/TPS63070RNMR/TPS63070RNMR.lib")(options "")(descr ""))
+  (lib (name "CSD16406Q3")(type "Legacy")(uri "${KIPRJMOD}/lib/CSD16406Q3/CSD16406Q3.lib")(options "")(descr ""))
 )

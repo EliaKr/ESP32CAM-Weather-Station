@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CSD16406Q3
+D 25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm
+K
+F http://www.ti.com/lit/gpn/csd16406q3
+$ENDCMP
+#
+#End Doc Library

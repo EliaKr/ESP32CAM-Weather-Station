@@ -1431,6 +1431,282 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CSD16406Q3:CSD16406Q3"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CSD16406Q3"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "DQG_VSON-CLIP"
+				(at 21.59 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/csd16406q3"
+				(at 21.59 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
+				(at 21.59 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 21.59 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-CSD16406Q3"
+				(at 21.59 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD16406Q3?qs=SuDOdTVxq4Wogv4PDdDFZA%3D%3D"
+				(at 21.59 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CSD16406Q3"
+				(at 21.59 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "CSD16406Q3_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "S_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "S_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "D_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "D_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CSD16406Q3_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1577,6 +1853,145 @@
 					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5631,8 +6046,8 @@
 		(uuid 09966ca9-849c-4193-8a95-d95256f38030)
 	)
 	(rectangle
-		(start 177.8 140.97)
-		(end 241.3 182.88)
+		(start 232.41 209.55)
+		(end 295.91 251.46)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -5657,8 +6072,8 @@
 		(uuid 463e1fc5-80b9-4b09-87e3-cdb9920321a4)
 	)
 	(rectangle
-		(start 15.24 119.38)
-		(end 118.11 156.21)
+		(start 16.51 130.81)
+		(end 119.38 167.64)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -5696,8 +6111,8 @@
 		(uuid 7d836067-063f-47c9-9ab7-939beededb29)
 	)
 	(rectangle
-		(start 15.24 55.88)
-		(end 118.11 115.57)
+		(start 16.51 67.31)
+		(end 119.38 127)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -5761,6 +6176,19 @@
 		(uuid cecb905e-0ef3-414b-951e-28291071f040)
 	)
 	(rectangle
+		(start 121.92 119.38)
+		(end 224.79 156.21)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 0 0 72 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d6546597-c27f-46de-9278-71dbc2b9e44e)
+	)
+	(rectangle
 		(start 302.26 226.06)
 		(end 405.13 248.92)
 		(stroke
@@ -5787,8 +6215,8 @@
 		(uuid f8bf5d19-330a-43d1-a92c-6e41c090f720)
 	)
 	(rectangle
-		(start 15.24 15.24)
-		(end 118.11 52.07)
+		(start 16.51 15.24)
+		(end 118.11 63.5)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -5825,7 +6253,7 @@
 	)
 	(text "3.3V Supply"
 		(exclude_from_sim no)
-		(at 105.41 153.416 0)
+		(at 106.68 164.846 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5849,7 +6277,7 @@
 	)
 	(text "Battery Charging"
 		(exclude_from_sim no)
-		(at 100.838 112.522 0)
+		(at 102.108 123.952 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5859,9 +6287,9 @@
 		)
 		(uuid "4adc32c2-9bdc-48b4-a733-ba51c90dadc3")
 	)
-	(text "Battery Management and Input"
+	(text "Battery Protection"
 		(exclude_from_sim no)
-		(at 86.868 49.276 0)
+		(at 99.822 61.214 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5895,9 +6323,9 @@
 		)
 		(uuid "85bd8809-8df0-4349-bcb4-ea1b5109b7eb")
 	)
-	(text "Direct Battery Connection"
+	(text "Battery Input"
 		(exclude_from_sim no)
-		(at 199.39 113.03 0)
+		(at 211.328 113.03 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5921,7 +6349,7 @@
 	)
 	(text "ESP32-CAM"
 		(exclude_from_sim no)
-		(at 228.854 180.594 0)
+		(at 283.464 249.174 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5930,6 +6358,18 @@
 			)
 		)
 		(uuid "943b2ba4-09fd-4143-83d3-f85764face48")
+	)
+	(text "Direct Battery and LDO Input Connection"
+		(exclude_from_sim no)
+		(at 184.658 153.924 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "a5525bb9-7ab5-4d4e-a4a8-565d51cef63f")
 	)
 	(text "Reset Button"
 		(exclude_from_sim no)
@@ -5986,10 +6426,34 @@
 		(uuid "191ed0f2-f5a3-4b31-9c83-c9fa03df6de2")
 	)
 	(junction
-		(at 38.1 33.02)
+		(at 168.91 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3861dba4-a351-4b47-9fd2-69f68f5d2586")
+	)
+	(junction
+		(at 59.69 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c589e40-cf7e-489f-88a6-dec8726ee220")
+	)
+	(junction
+		(at 59.69 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "506a278c-edc7-4743-b311-10c0de56026c")
+	)
+	(junction
+		(at 106.68 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ac40d0f-ae2e-4ed7-9b63-6e96611525bc")
+	)
+	(junction
+		(at 59.69 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "834fb104-685a-46cf-8d9f-4b97c93639b2")
 	)
 	(junction
 		(at 74.93 190.5)
@@ -5997,8 +6461,38 @@
 		(color 0 0 0 0)
 		(uuid "91cd252c-76dd-44d0-808a-92f4c2ad3711")
 	)
+	(junction
+		(at 92.71 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99d0080e-99e7-446a-8bad-d71d661563c5")
+	)
+	(junction
+		(at 34.29 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9abb85ca-ec1b-49f7-a35a-793ad6d5aad9")
+	)
+	(junction
+		(at 85.09 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1a37b6c-3dd7-421d-a244-562d188aafca")
+	)
+	(junction
+		(at 59.69 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e14fe7c3-2220-4c95-85a8-64944abb9a13")
+	)
+	(junction
+		(at 34.29 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa91e3f6-a0d7-4db0-a718-ca2a033cca1f")
+	)
 	(no_connect
-		(at 194.31 163.83)
+		(at 248.92 232.41)
 		(uuid "1e2336b2-3c96-4881-a6bc-48417fb890b3")
 	)
 	(no_connect
@@ -6006,7 +6500,7 @@
 		(uuid "2745f9cf-156a-40a3-9a6a-cf1328e5e1a4")
 	)
 	(no_connect
-		(at 224.79 163.83)
+		(at 279.4 232.41)
 		(uuid "27ee41b1-2185-44e2-b6bf-8452f19492b8")
 	)
 	(no_connect
@@ -6014,32 +6508,46 @@
 		(uuid "3c57b6b5-919d-4ffa-9fc9-5d2418b85bc8")
 	)
 	(no_connect
-		(at 194.31 153.67)
+		(at 248.92 222.25)
 		(uuid "7a87d332-210e-4658-b253-db671f713553")
 	)
 	(no_connect
-		(at 194.31 166.37)
+		(at 248.92 234.95)
 		(uuid "b2de5583-163a-4392-849a-cc58963945ff")
 	)
 	(no_connect
-		(at 194.31 168.91)
+		(at 248.92 237.49)
 		(uuid "b8fb61b9-01f2-49c6-adc1-0940fb6f2ab2")
 	)
 	(no_connect
-		(at 194.31 171.45)
+		(at 45.72 27.94)
+		(uuid "bdac08b8-53ab-4163-9ad4-c9a2a7276874")
+	)
+	(no_connect
+		(at 248.92 240.03)
 		(uuid "bec07e0e-864f-40d1-b933-73cb78625c1b")
 	)
 	(no_connect
-		(at 194.31 161.29)
+		(at 248.92 229.87)
 		(uuid "c1eb07b8-edb9-4c00-a983-1c14c758d1d9")
 	)
 	(no_connect
-		(at 194.31 158.75)
+		(at 248.92 227.33)
 		(uuid "ffc29454-32ac-44fa-8642-bed67ba0eff4")
 	)
 	(wire
 		(pts
-			(xy 39.37 33.02) (xy 38.1 33.02)
+			(xy 106.68 39.37) (xy 106.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064f39f2-a9df-427f-bf8f-617ee5d3466b")
+	)
+	(wire
+		(pts
+			(xy 170.18 99.06) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6099,6 +6607,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 41.91) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247a7ca5-939c-4203-9eef-6f2add110e60")
+	)
+	(wire
+		(pts
 			(xy 274.32 34.29) (xy 274.32 30.48)
 		)
 		(stroke
@@ -6146,6 +6664,16 @@
 			(type default)
 		)
 		(uuid "40e8d6fd-59ff-4420-8ca0-6410c5bc3881")
+	)
+	(wire
+		(pts
+			(xy 85.09 50.8) (xy 92.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413c4084-8a17-439a-8035-85bff473dcc2")
 	)
 	(wire
 		(pts
@@ -6209,6 +6737,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 38.1) (xy 106.68 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4deb613f-f486-4758-8f00-a27d41817bb6")
+	)
+	(wire
+		(pts
 			(xy 274.32 30.48) (xy 294.64 30.48)
 		)
 		(stroke
@@ -6216,16 +6754,6 @@
 			(type default)
 		)
 		(uuid "55deca8b-8513-4d2e-8f9e-d873baae92c6")
-	)
-	(wire
-		(pts
-			(xy 166.37 96.52) (xy 176.53 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5864178c-1374-449b-9ff7-99b05c2909e3")
 	)
 	(wire
 		(pts
@@ -6249,6 +6777,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 50.8) (xy 85.09 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5faef4ca-5435-4475-a4f8-9ae2e865150d")
+	)
+	(wire
+		(pts
+			(xy 85.09 33.02) (xy 81.28 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631d26c7-7732-4182-82f4-b6d57bdf7ca3")
+	)
+	(wire
+		(pts
 			(xy 302.26 30.48) (xy 307.34 30.48)
 		)
 		(stroke
@@ -6269,13 +6817,43 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 26.67) (xy 38.1 33.02)
+			(xy 24.13 30.48) (xy 45.72 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd96914-5eb1-43bc-806b-73be110fb09c")
+	)
+	(wire
+		(pts
+			(xy 59.69 45.72) (xy 59.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eeb2be3-6f0f-4aec-a92a-e99d9003b510")
+	)
+	(wire
+		(pts
+			(xy 168.91 92.71) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f948e2a-8529-489c-a74e-383056534b1b")
+	)
+	(wire
+		(pts
+			(xy 104.14 38.1) (xy 106.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72623c69-c3d9-4bd1-b80c-e8d4284f5c97")
 	)
 	(wire
 		(pts
@@ -6286,6 +6864,26 @@
 			(type default)
 		)
 		(uuid "72a91899-2a55-47f2-a315-dffd316eceea")
+	)
+	(wire
+		(pts
+			(xy 34.29 53.34) (xy 24.13 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ac251e-c33f-44b2-8594-8a2611f32827")
+	)
+	(wire
+		(pts
+			(xy 39.37 33.02) (xy 45.72 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793800e9-189b-41b1-9fae-f2bef726c9f4")
 	)
 	(wire
 		(pts
@@ -6319,6 +6917,56 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 137.16) (xy 160.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9ca933-8d07-46aa-938c-6978441fd24a")
+	)
+	(wire
+		(pts
+			(xy 85.09 48.26) (xy 85.09 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8daab64c-4799-4f07-84d9-8b1dc5a533f9")
+	)
+	(wire
+		(pts
+			(xy 59.69 50.8) (xy 59.69 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8c4812-6ce5-43a5-b28e-f3a3cd96084a")
+	)
+	(wire
+		(pts
+			(xy 85.09 41.91) (xy 39.37 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9121ea9c-a91a-4143-9a33-3a5c48fac704")
+	)
+	(wire
+		(pts
+			(xy 24.13 53.34) (xy 24.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9248634b-753f-43cf-ba4a-ca2baeada4c2")
+	)
+	(wire
+		(pts
 			(xy 226.06 271.78) (xy 236.22 271.78)
 		)
 		(stroke
@@ -6326,6 +6974,16 @@
 			(type default)
 		)
 		(uuid "9e8846ad-150d-4f37-b82d-85dd348ac1e5")
+	)
+	(wire
+		(pts
+			(xy 203.2 139.7) (xy 193.04 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1b52b0-8489-4ed6-8df8-4344a9f1d997")
 	)
 	(wire
 		(pts
@@ -6349,6 +7007,36 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 27.94) (xy 92.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74a6602-9e3b-4f89-906c-af3d30800843")
+	)
+	(wire
+		(pts
+			(xy 193.04 137.16) (xy 203.2 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae09ff31-9c76-41d4-a527-398d1dbb594b")
+	)
+	(wire
+		(pts
+			(xy 85.09 45.72) (xy 85.09 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d6e8d9-ec9b-4669-a4dc-c9d83d133c2c")
+	)
+	(wire
+		(pts
 			(xy 85.09 180.34) (xy 88.9 180.34)
 		)
 		(stroke
@@ -6359,7 +7047,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 156.21) (xy 194.31 156.21)
+			(xy 245.11 224.79) (xy 248.92 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6379,7 +7067,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 153.67) (xy 224.79 153.67)
+			(xy 280.67 222.25) (xy 279.4 222.25)
 		)
 		(stroke
 			(width 0)
@@ -6399,13 +7087,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 99.06) (xy 166.37 99.06)
+			(xy 30.48 45.72) (xy 34.29 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1208c5a-8ddd-45bf-9b2d-09e9f78c6410")
+		(uuid "ce014163-8151-4524-b1f0-834314dd4c5f")
 	)
 	(wire
 		(pts
@@ -6419,6 +7107,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 48.26) (xy 34.29 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3bb9b04-855c-48d8-accc-19280ed7960f")
+	)
+	(wire
+		(pts
 			(xy 134.62 269.24) (xy 144.78 269.24)
 		)
 		(stroke
@@ -6426,6 +7124,16 @@
 			(type default)
 		)
 		(uuid "d48a937d-fe05-4e32-953f-244850298639")
+	)
+	(wire
+		(pts
+			(xy 160.02 139.7) (xy 149.86 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ca4b99-02e3-4d98-94a3-44e10eeddf2f")
 	)
 	(wire
 		(pts
@@ -6439,6 +7147,26 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 27.94) (xy 92.71 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6764c8-1fb5-4661-8251-7553949014d6")
+	)
+	(wire
+		(pts
+			(xy 59.69 48.26) (xy 59.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5eb6cc-9e45-4d14-a6dc-3cdfcb8e6885")
+	)
+	(wire
+		(pts
 			(xy 74.93 181.61) (xy 74.93 180.34)
 		)
 		(stroke
@@ -6449,7 +7177,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 161.29) (xy 236.22 161.29)
+			(xy 34.29 45.72) (xy 34.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee5c65b-aaa5-4f58-9a62-3f7bb1faf7bc")
+	)
+	(wire
+		(pts
+			(xy 279.4 229.87) (xy 290.83 229.87)
 		)
 		(stroke
 			(width 0)
@@ -6466,6 +7204,26 @@
 			(type default)
 		)
 		(uuid "fee6c243-ef22-4b43-b3a0-1a5da61c9a55")
+	)
+	(wire
+		(pts
+			(xy 187.96 92.71) (xy 187.96 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7041b1-60e2-4920-b737-855203355309")
+	)
+	(label "PROT_BAT"
+		(at 73.66 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04678fd2-d528-4809-87c2-e681b6f754c6")
 	)
 	(label "I2C_SCL"
 		(at 73.66 269.24 0)
@@ -6577,8 +7335,18 @@
 		)
 		(uuid "95d4725e-b2b8-476c-b159-9ade1413b301")
 	)
+	(label "PROT_BAT"
+		(at 104.14 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad764933-7b83-4b34-b460-056949bb163e")
+	)
 	(label "GPIO0"
-		(at 224.79 158.75 0)
+		(at 279.4 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6608,7 +7376,7 @@
 		(uuid "cb88838c-f22f-42bf-b499-bd125e059b66")
 	)
 	(label "I2C_SCL"
-		(at 224.79 166.37 0)
+		(at 279.4 234.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6638,7 +7406,7 @@
 		(uuid "e1561dda-b684-4cd3-9ebd-881956d05552")
 	)
 	(label "I2C_SDA"
-		(at 224.79 156.21 0)
+		(at 279.4 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6648,7 +7416,7 @@
 		(uuid "e53b91f3-de3b-4412-afbc-eb3d34c05343")
 	)
 	(label "GPIO1"
-		(at 224.79 168.91 0)
+		(at 279.4 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6669,7 +7437,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 38.1 26.67 0)
+		(at 168.91 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6678,7 +7446,7 @@
 		(fields_autoplaced yes)
 		(uuid "011aa09c-454b-4b4a-b6d7-c578bed50cb8")
 		(property "Reference" "#PWR01"
-			(at 38.1 30.48 0)
+			(at 168.91 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,8 +7454,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT_UNFUSED"
-			(at 38.1 21.59 0)
+		(property "Value" "+VBAT_UNFUSED"
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +7463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 26.67 0)
+			(at 168.91 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,7 +7472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 26.67 0)
+			(at 168.91 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,7 +7481,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 38.1 26.67 0)
+			(at 168.91 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,6 +7573,74 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 77.47 33.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01b77ac1-cfa6-46ab-9fde-fdd1cb189ac0")
+		(property "Reference" "R17"
+			(at 77.47 37.846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 77.47 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 77.47 34.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22872911-5c7d-440e-9ab5-9bae1e4d74c8")
+		)
+		(pin "2"
+			(uuid "c29048c8-a655-4ec2-b0c3-6bea1b85e328")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 182.88 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6875,16 +7711,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 161.29 96.52 0)
+		(at 187.96 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "04932c64-0283-41f8-92db-6715324d693d")
-		(property "Reference" "J7"
-			(at 161.925 91.44 0)
+		(uuid "06a32657-1470-44e9-a70a-ab617291c859")
+		(property "Reference" "J10"
+			(at 188.595 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +7728,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 161.925 93.98 0)
+			(at 188.595 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6900,7 +7736,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 161.29 96.52 0)
+			(at 187.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +7745,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 96.52 0)
+			(at 187.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,7 +7754,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 161.29 96.52 0)
+			(at 187.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,15 +7763,81 @@
 			)
 		)
 		(pin "2"
-			(uuid "ec00deaa-c549-42e5-a174-470211aa985b")
+			(uuid "1190646d-7a2c-4bc1-aec5-17c713ea48a2")
 		)
 		(pin "1"
-			(uuid "6605bce9-8d52-4e3e-8bf0-e1c1ca271bbb")
+			(uuid "a5fcabdb-b40d-415b-9a9c-faf73732931f")
 		)
 		(instances
-			(project ""
+			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
-					(reference "J7")
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a5ba3f5-81ad-4dac-885f-5a506d76b57b")
+		(property "Reference" "#PWR03"
+			(at 30.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b4553f9-278e-4a3a-b71a-e3c0ffade65c")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7072,6 +7974,154 @@
 			(project ""
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CSD16406Q3:CSD16406Q3")
+		(at 85.09 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "141d3471-6601-4ef1-bf40-22e4fcc5d1d8")
+		(property "Reference" "Q3"
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CSD16406Q3"
+			(at 72.39 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CSD16406Q3:DQG_VSON-CLIP"
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/csd16406q3"
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
+			(at 85.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-CSD16406Q3"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD16406Q3?qs=SuDOdTVxq4Wogv4PDdDFZA%3D%3D"
+			(at 63.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 63.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CSD16406Q3"
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cd1c09c6-9544-4f8a-9ab0-2ac7425be2a2")
+		)
+		(pin "6"
+			(uuid "6a60cad9-ff4b-4f07-b05c-9f83a4b7fd07")
+		)
+		(pin "7"
+			(uuid "c39bc770-6bb7-426b-b693-5ac504843268")
+		)
+		(pin "8"
+			(uuid "5260e3e7-70dc-4426-9e37-e35e41a2fd27")
+		)
+		(pin "1"
+			(uuid "68f4493b-5df5-43a9-90b6-c89593cf757a")
+		)
+		(pin "5"
+			(uuid "7524deba-84e4-42c4-b80d-a0cb1971aa9e")
+		)
+		(pin "2"
+			(uuid "7654346a-ef71-4162-b6df-8a89c606ca60")
+		)
+		(pin "4"
+			(uuid "82dbdaf3-8d20-415b-8d24-d9d41b20bd20")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -7497,7 +8547,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 161.29 0)
+		(at 290.83 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7506,7 +8556,7 @@
 		(fields_autoplaced yes)
 		(uuid "26c9fcfa-f960-4a97-9204-c574c99c0ac6")
 		(property "Reference" "#PWR08"
-			(at 236.22 167.64 0)
+			(at 290.83 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +8565,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 166.37 0)
+			(at 290.83 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,7 +8573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 161.29 0)
+			(at 290.83 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,7 +8582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 161.29 0)
+			(at 290.83 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,7 +8591,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 161.29 0)
+			(at 290.83 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,72 +8742,6 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dbb93c9-3211-4d99-b147-074afd70be74")
-		(property "Reference" "#PWR04"
-			(at 176.53 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "187de172-fd8c-4729-9db2-d231e35a1c21")
-		)
-		(instances
-			(project "ESP32CAM-Weather-Station"
-				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7972,72 +8956,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 176.53 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3864cf52-fc97-4f42-a85e-7b923d19b0ff")
-		(property "Reference" "#PWR03"
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT_UNFUSED"
-			(at 176.53 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 176.53 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ea7384b-2061-4d6c-b397-d5196159c93b")
-		)
-		(instances
-			(project "ESP32CAM-Weather-Station"
-				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 318.77 30.48 0)
 		(unit 1)
@@ -8105,7 +9023,7 @@
 	)
 	(symbol
 		(lib_id "ESP32-CAM:ESP32-CAM")
-		(at 209.55 168.91 0)
+		(at 264.16 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8114,7 +9032,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f76e32e-cce8-4e4e-bf4b-d8936e5dad18")
 		(property "Reference" "U1"
-			(at 209.55 146.05 0)
+			(at 264.16 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +9040,7 @@
 			)
 		)
 		(property "Value" "ESP32-CAM"
-			(at 209.55 148.59 0)
+			(at 264.16 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8130,7 +9048,7 @@
 			)
 		)
 		(property "Footprint" "ESP32-CAM:ESP32-CAM"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8140,7 +9058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,7 +9067,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8158,7 +9076,7 @@
 			)
 		)
 		(property "MF" "AI-Thinker"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8168,7 +9086,7 @@
 			)
 		)
 		(property "DESCRIPTION" "ESP32 ESP32 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) Evaluation Board"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,7 +9096,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +9106,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8198,7 +9116,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8208,7 +9126,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-CAM/AI-Thinker/view-part/?ref=eda"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +9136,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8228,7 +9146,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-CAM/AI-Thinker/view-part/?ref=snap"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +9156,7 @@
 			)
 		)
 		(property "MP" "ESP32-CAM"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,7 +9166,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8258,7 +9176,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Not in stock"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8268,7 +9186,7 @@
 			)
 		)
 		(property "Description_1" "ESP32 ESP32 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) Evaluation Board"
-			(at 209.55 168.91 0)
+			(at 264.16 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,6 +9320,138 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 92.71 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4288b880-2b29-42bf-8f89-d6cf89e784c3")
+		(property "Reference" "#PWR04"
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VBAT"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dff4315a-4597-444e-978a-2f6454bcd995")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "453a4acb-6a48-4273-ad2b-e4fe3589191b")
+		(property "Reference" "#PWR031"
+			(at 106.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VBAT"
+			(at 106.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6188eabe-8ded-4291-b80a-ad6633747ae8")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 226.06 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8461,6 +9511,144 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b1debf8-a30e-448e-ab9e-46e2ee470fd5")
+		(property "Reference" "C1"
+			(at 110.49 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 110.49 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 107.6452 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09bce7d5-161e-4c89-89a6-b199ea67502d")
+		)
+		(pin "2"
+			(uuid "d0289e3a-d1af-4f86-b65b-74c1fecc5341")
+		)
+		(instances
+			(project ""
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 144.78 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b688a22-360a-44a5-b754-0d3707344f18")
+		(property "Reference" "J9"
+			(at 145.415 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 145.415 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3927bdf-2c88-49eb-8179-dc6437b186f2")
+		)
+		(pin "1"
+			(uuid "78c7538b-1e58-4466-bcbc-4e9cba066884")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8597,6 +9785,72 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "553f0831-e825-4101-a1ac-99417f828f12")
+		(property "Reference" "#PWR032"
+			(at 85.09 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3589e89d-59b7-46f2-8f0a-8345efa4c5f7")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8815,7 +10069,7 @@
 	)
 	(symbol
 		(lib_id "12BHC186P2-GR:12BHC186P2-GR")
-		(at 38.1 35.56 180)
+		(at 168.91 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8824,7 +10078,7 @@
 		(fields_autoplaced yes)
 		(uuid "59bcd50f-1394-4b54-a6ea-7fd10378a9fb")
 		(property "Reference" "H1"
-			(at 27.94 25.4 0)
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8832,7 +10086,7 @@
 			)
 		)
 		(property "Value" "12BHC186P2-GR"
-			(at 27.94 27.94 0)
+			(at 158.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8840,7 +10094,7 @@
 			)
 		)
 		(property "Footprint" "12BHC186P2-GR:12BHC186P2GR"
-			(at 21.59 38.1 0)
+			(at 152.4 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,7 +10104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 35.56 0)
+			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8860,7 +10114,7 @@
 			)
 		)
 		(property "Description" "Cylindrical Battery Contacts, Clips, Holders & Springs 18650 Battery Holder PC Mount - Black"
-			(at 38.1 35.56 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,7 +10123,7 @@
 			)
 		)
 		(property "Description_1" "Cylindrical Battery Contacts, Clips, Holders & Springs 18650 Battery Holder PC Mount - Black"
-			(at 21.59 33.02 0)
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,7 +10133,7 @@
 			)
 		)
 		(property "Height" "22.5"
-			(at 21.59 30.48 0)
+			(at 152.4 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8889,7 +10143,7 @@
 			)
 		)
 		(property "Mouser Part Number" "12BHC186P2-GR"
-			(at 21.59 27.94 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,7 +10153,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Eagle-Plastic-Devices/12BHC186P2-GR?qs=pBJMDPsKWf3IIRfovBsTOg%3D%3D"
-			(at 21.59 25.4 0)
+			(at 152.4 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +10163,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Eagle Plastic Devices"
-			(at 21.59 22.86 0)
+			(at 152.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8919,7 +10173,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "12BHC186P2-GR"
-			(at 21.59 20.32 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8944,8 +10198,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 187.96 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5caa1303-9ecb-4515-be04-5994290c4698")
+		(property "Reference" "#PWR025"
+			(at 187.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VBAT"
+			(at 187.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb3af28a-d996-4de0-8a1f-9098b32b4374")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TPS631000DRLR:TPS631000DRLR")
-		(at 49.53 134.62 0)
+		(at 50.8 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8954,7 +10274,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fbd64e0-6e0a-4458-b131-763255928b71")
 		(property "Reference" "U2"
-			(at 63.5 127 0)
+			(at 64.77 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +10282,7 @@
 			)
 		)
 		(property "Value" "TPS631000DRLR"
-			(at 63.5 129.54 0)
+			(at 64.77 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8970,7 +10290,7 @@
 			)
 		)
 		(property "Footprint" "SOTFL50P160X60-8N"
-			(at 73.66 132.08 0)
+			(at 74.93 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8980,7 +10300,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps631000.pdf?ts=1652152702265"
-			(at 73.66 134.62 0)
+			(at 74.93 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8990,7 +10310,7 @@
 			)
 		)
 		(property "Description" "Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"
-			(at 49.53 134.62 0)
+			(at 50.8 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +10319,7 @@
 			)
 		)
 		(property "Description_1" "Switching Voltage Regulators 1.5-A output current, high power density buck-boost converter"
-			(at 73.66 137.16 0)
+			(at 74.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,7 +10329,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at 73.66 139.7 0)
+			(at 74.93 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9019,7 +10339,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TPS631000DRLR"
-			(at 73.66 142.24 0)
+			(at 74.93 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9029,7 +10349,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS631000DRLR?qs=rSMjJ%252B1ewcRYwoN2deTeNA%3D%3D"
-			(at 73.66 144.78 0)
+			(at 74.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,7 +10359,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 73.66 147.32 0)
+			(at 74.93 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9049,7 +10369,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TPS631000DRLR"
-			(at 73.66 149.86 0)
+			(at 74.93 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9229,7 +10549,7 @@
 	)
 	(symbol
 		(lib_id "BQ29707DSET:BQ29707DSET")
-		(at 73.66 30.48 0)
+		(at 45.72 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9238,7 +10558,7 @@
 		(fields_autoplaced yes)
 		(uuid "67531355-d105-4422-be07-36030522271c")
 		(property "Reference" "IC5"
-			(at 87.63 22.86 0)
+			(at 59.69 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9246,7 +10566,7 @@
 			)
 		)
 		(property "Value" "BQ29707DSET"
-			(at 87.63 25.4 0)
+			(at 59.69 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9254,7 +10574,7 @@
 			)
 		)
 		(property "Footprint" "BQ29707DSET:TPS610985DSET"
-			(at 97.79 27.94 0)
+			(at 69.85 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9264,7 +10584,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq2970.pdf"
-			(at 97.79 30.48 0)
+			(at 69.85 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +10594,7 @@
 			)
 		)
 		(property "Description" "Li-Ion/Li Polymer Advanced Single-Cell Battery Protector IC Family"
-			(at 73.66 30.48 0)
+			(at 45.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,7 +10603,7 @@
 			)
 		)
 		(property "Description_1" "Li-Ion/Li Polymer Advanced Single-Cell Battery Protector IC Family"
-			(at 97.79 33.02 0)
+			(at 69.85 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9293,7 +10613,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 97.79 35.56 0)
+			(at 69.85 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,7 +10623,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-BQ29707DSET"
-			(at 97.79 38.1 0)
+			(at 69.85 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +10633,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ29707DSET?qs=7z%252BmIopC6%2FK8PFHAGER5Bg%3D%3D"
-			(at 97.79 40.64 0)
+			(at 69.85 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +10643,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 97.79 43.18 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9333,7 +10653,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BQ29707DSET"
-			(at 97.79 45.72 0)
+			(at 69.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9642,6 +10962,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 168.91 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a72ed51-3f6e-4ee0-8a8c-03f841e501e3")
+		(property "Reference" "#PWR02"
+			(at 168.91 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VBAT"
+			(at 168.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5be44e6e-a7b0-4206-b60c-8351c9d30913")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 139.7 228.6 0)
 		(unit 1)
@@ -9709,7 +11095,7 @@
 	)
 	(symbol
 		(lib_id "SF-1206FP400-2:SF-1206FP400-2")
-		(at 39.37 33.02 0)
+		(at 170.18 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9718,7 +11104,7 @@
 		(fields_autoplaced yes)
 		(uuid "724613bb-0d66-460c-881a-d36b614aafa7")
 		(property "Reference" "F1"
-			(at 48.26 26.67 0)
+			(at 179.07 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9726,7 +11112,7 @@
 			)
 		)
 		(property "Value" "SF-1206FP400-2"
-			(at 48.26 29.21 0)
+			(at 179.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9734,7 +11120,7 @@
 			)
 		)
 		(property "Footprint" "SF-1206FP400-2:FUSC3116X70N"
-			(at 53.34 31.75 0)
+			(at 184.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,7 +11130,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/sf-1206fp400-2/bourns"
-			(at 53.34 34.29 0)
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9754,7 +11140,7 @@
 			)
 		)
 		(property "Description" "Surface Mount Fuses 4A Fast Acting 1206 Singlfuse"
-			(at 39.37 33.02 0)
+			(at 170.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9763,7 +11149,7 @@
 			)
 		)
 		(property "Description_1" "Surface Mount Fuses 4A Fast Acting 1206 Singlfuse"
-			(at 53.34 36.83 0)
+			(at 184.15 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9773,7 +11159,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 53.34 39.37 0)
+			(at 184.15 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9783,7 +11169,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-SF-1206FP400-2"
-			(at 53.34 41.91 0)
+			(at 184.15 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9793,7 +11179,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SF-1206FP400-2?qs=YCa%2FAAYMW02S8mWQc8TxNw%3D%3D"
-			(at 53.34 44.45 0)
+			(at 184.15 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +11189,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 53.34 46.99 0)
+			(at 184.15 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +11199,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SF-1206FP400-2"
-			(at 53.34 49.53 0)
+			(at 184.15 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,7 +11373,7 @@
 	)
 	(symbol
 		(lib_id "MF-USHT125KX_12-2:MF-USHT125KX_12-2")
-		(at 31.75 134.62 0)
+		(at 33.02 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9996,7 +11382,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bbd91f9-7e89-42dd-a5f6-a8f9e6f277c8")
 		(property "Reference" "F2"
-			(at 40.64 128.27 0)
+			(at 41.91 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,7 +11390,7 @@
 			)
 		)
 		(property "Value" "MF-USHT125KX_12-2"
-			(at 40.64 130.81 0)
+			(at 41.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10012,7 +11398,7 @@
 			)
 		)
 		(property "Footprint" "MF-USHT125KX_12-2:MFUSHT125KX122"
-			(at 45.72 133.35 0)
+			(at 46.99 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10022,7 +11408,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/mf-usht.pdf"
-			(at 45.72 135.89 0)
+			(at 46.99 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10032,7 +11418,7 @@
 			)
 		)
 		(property "Description" "Polymeric PTC Resettable Fuse 12V 1.25 A Ih Surface Mount 1210 (3225 Metric), Concave"
-			(at 31.75 134.62 0)
+			(at 33.02 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,7 +11427,7 @@
 			)
 		)
 		(property "Description_1" "Polymeric PTC Resettable Fuse 12V 1.25 A Ih Surface Mount 1210 (3225 Metric), Concave"
-			(at 45.72 138.43 0)
+			(at 46.99 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10051,7 +11437,7 @@
 			)
 		)
 		(property "Height" "1.05"
-			(at 45.72 140.97 0)
+			(at 46.99 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,7 +11447,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-MF-USHT125KX/12"
-			(at 45.72 143.51 0)
+			(at 46.99 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10071,7 +11457,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/MF-USHT125KX-12-2?qs=7%2F6SraaimPR7sMqRQYWMnw%3D%3D"
-			(at 45.72 146.05 0)
+			(at 46.99 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10081,7 +11467,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 45.72 148.59 0)
+			(at 46.99 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10091,7 +11477,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MF-USHT125KX/12-2"
-			(at 45.72 151.13 0)
+			(at 46.99 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,6 +11496,76 @@
 			(project ""
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c889fa5-ebee-492a-bc3c-62be274456ef")
+		(property "Reference" "R16"
+			(at 109.22 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "330"
+			(at 109.22 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 108.458 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "375c86bc-5d89-41c3-b24d-cce0fd371309")
+		)
+		(pin "2"
+			(uuid "2fd50854-bf7d-40b9-960a-2a7734fbe1a0")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10178,6 +11634,72 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98e20008-d5a3-4260-ac4f-153352596fc1")
+		(property "Reference" "#PWR029"
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d55186ff-fef7-4266-96fa-2dd4d8eafa7d")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10745,73 +12267,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acc0b918-4ef5-46ba-9079-b66f4c4c3612")
-		(property "Reference" "#PWR02"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0ae406c-0b45-4a44-844b-6d5d09706283")
-		)
-		(instances
-			(project ""
-				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 224.79 171.45 0)
+		(at 279.4 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10820,7 +12276,7 @@
 		(fields_autoplaced yes)
 		(uuid "aea6a518-832f-4fac-b3f4-0fb96a5de1d3")
 		(property "Reference" "#PWR05"
-			(at 224.79 177.8 0)
+			(at 279.4 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10829,7 +12285,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 176.53 0)
+			(at 279.4 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10837,7 +12293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 171.45 0)
+			(at 279.4 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10846,7 +12302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 171.45 0)
+			(at 279.4 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10855,7 +12311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 171.45 0)
+			(at 279.4 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10877,7 +12333,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 156.21 0)
+		(at 245.11 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10886,7 +12342,7 @@
 		(fields_autoplaced yes)
 		(uuid "aed35458-fd9d-4fe2-9f1b-5e31b90f3976")
 		(property "Reference" "#PWR07"
-			(at 190.5 162.56 0)
+			(at 245.11 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10895,7 +12351,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 161.29 0)
+			(at 245.11 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10903,7 +12359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 156.21 0)
+			(at 245.11 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10912,7 +12368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 156.21 0)
+			(at 245.11 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10921,7 +12377,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 156.21 0)
+			(at 245.11 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11002,6 +12458,154 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CSD16406Q3:CSD16406Q3")
+		(at 34.29 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b43be514-143a-45f6-bf17-6756e729b3b7")
+		(property "Reference" "Q2"
+			(at 46.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CSD16406Q3"
+			(at 46.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CSD16406Q3:DQG_VSON-CLIP"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/csd16406q3"
+			(at 55.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
+			(at 34.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 55.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-CSD16406Q3"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD16406Q3?qs=SuDOdTVxq4Wogv4PDdDFZA%3D%3D"
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CSD16406Q3"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a8df0961-cd67-4417-bb22-d0b2d93e6ffd")
+		)
+		(pin "6"
+			(uuid "c547f238-e4c1-4560-b463-119171b563b5")
+		)
+		(pin "7"
+			(uuid "6de4cec9-6453-46da-a2e3-fa31c3f49a93")
+		)
+		(pin "8"
+			(uuid "a7f54783-946b-47ee-b1f9-fa8063ef29f2")
+		)
+		(pin "1"
+			(uuid "7512dff2-159b-4fce-af99-325dbd74bf30")
+		)
+		(pin "5"
+			(uuid "4f24bf83-0277-4622-a08c-898ab84ace25")
+		)
+		(pin "2"
+			(uuid "26f1db94-dbe3-43cf-aad2-7f0c1099a4dd")
+		)
+		(pin "4"
+			(uuid "5363f4f0-f8d0-4009-b867-5e3d6cbb3fb0")
+		)
+		(instances
+			(project ""
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -11212,7 +12816,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 226.06 153.67 0)
+		(at 280.67 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11221,7 +12825,7 @@
 		(fields_autoplaced yes)
 		(uuid "c71752fe-104c-4f5b-82a0-718ab392e807")
 		(property "Reference" "#PWR06"
-			(at 226.06 157.48 0)
+			(at 280.67 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11230,7 +12834,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 226.06 148.59 0)
+			(at 280.67 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11238,7 +12842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 153.67 0)
+			(at 280.67 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11247,7 +12851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 153.67 0)
+			(at 280.67 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11256,7 +12860,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 226.06 153.67 0)
+			(at 280.67 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11271,6 +12875,72 @@
 			(project ""
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8453566-9304-4786-b09b-2ec0585bdfd5")
+		(property "Reference" "#PWR027"
+			(at 160.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-VBAT"
+			(at 160.02 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "122532a1-7d67-40ea-81cf-8321804c9064")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11617,6 +13287,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 54.61 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9e2a1c1-324e-4eef-ba53-c9a29ad99e2e")
+		(property "Reference" "#PWR030"
+			(at 54.61 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VBAT"
+			(at 54.61 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 54.61 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "389b7c62-a136-43c8-9163-54b4d9bcf34b")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 88.9 269.24 0)
 		(unit 1)
@@ -11886,6 +13622,138 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 160.02 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2b6df6a-d1ad-469a-96ae-56c40a94d1a9")
+		(property "Reference" "#PWR026"
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VBAT_UNFUSED"
+			(at 160.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e9b31a2-04af-4aae-9a48-1a85bb98e33d")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 106.68 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e594fd72-35da-4f33-bed2-444e72d513ef")
+		(property "Reference" "#PWR028"
+			(at 106.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VBAT"
+			(at 106.68 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 106.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39871e38-acf9-4a98-a147-5e9322eb4863")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12205,7 +14073,7 @@
 	)
 	(symbol
 		(lib_id "BQ24093DGQR:BQ24093DGQR")
-		(at 46.99 77.47 0)
+		(at 48.26 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12214,7 +14082,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebd094ae-6353-4851-862d-63704a5dce46")
 		(property "Reference" "IC4"
-			(at 64.77 69.85 0)
+			(at 66.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12222,7 +14090,7 @@
 			)
 		)
 		(property "Value" "BQ24093DGQR"
-			(at 64.77 72.39 0)
+			(at 66.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12230,7 +14098,7 @@
 			)
 		)
 		(property "Footprint" "BQ24093DGQR:SOP50P490X110-11N"
-			(at 78.74 74.93 0)
+			(at 80.01 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12240,7 +14108,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/BQ24093"
-			(at 78.74 77.47 0)
+			(at 80.01 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12250,7 +14118,7 @@
 			)
 		)
 		(property "Description" "1A, Single-Input, Single-Cell Li-Ion Battery Charger with Operation Over JEITA and 100k NTC"
-			(at 46.99 77.47 0)
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12259,7 +14127,7 @@
 			)
 		)
 		(property "Description_1" "1A, Single-Input, Single-Cell Li-Ion Battery Charger with Operation Over JEITA and 100k NTC"
-			(at 78.74 80.01 0)
+			(at 80.01 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12269,7 +14137,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 78.74 82.55 0)
+			(at 80.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12279,7 +14147,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-BQ24093DGQR"
-			(at 78.74 85.09 0)
+			(at 80.01 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12289,7 +14157,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ24093DGQR?qs=C44r%252BX3hXgJJomV3RK43zw%3D%3D"
-			(at 78.74 87.63 0)
+			(at 80.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12299,7 +14167,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 78.74 90.17 0)
+			(at 80.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12309,7 +14177,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BQ24093DGQR"
-			(at 78.74 92.71 0)
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
