@@ -6209,6 +6209,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "XFL4020-152MEC:XFL4020-152MEC"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 16.51 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "XFL4020-152MEC"
+				(at 16.51 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "XFL4020152MEC"
+				(at 16.51 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf"
+				(at 16.51 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "COILCRAFT - XFL4020-152MEC - Power Inductor (SMD), 1.5 H, 9.1 A, Shielded, 4.1 A, XFL4020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "COILCRAFT - XFL4020-152MEC - Power Inductor (SMD), 1.5 H, 9.1 A, Shielded, 4.1 A, XFL4020"
+				(at 16.51 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.1"
+				(at 16.51 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "994-XFL4020-152MEC"
+				(at 16.51 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Coilcraft/XFL4020-152MEC?qs=zCSbvcPd3pak5QYA2uujRA%3D%3D"
+				(at 16.51 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "COILCRAFT"
+				(at 16.51 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XFL4020-152MEC"
+				(at 16.51 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "XFL4020-152MEC_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "XFL4020-152MEC_0_1"
+				(arc
+					(start 7.62 0)
+					(mid 6.35 -1.3218)
+					(end 5.08 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 0)
+					(mid 8.89 -1.3218)
+					(end 7.62 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 0)
+					(mid 11.43 -1.3218)
+					(end 10.16 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 15.24 0)
+					(mid 13.97 -1.3218)
+					(end 12.7 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XT30UPB-M:XT30UPB-M"
 			(pin_names
 				(offset 1.016)
@@ -7004,6 +7208,18 @@
 		(uuid 33fdf1c4-f7b2-4c6e-b093-d9d4ed3690a1)
 	)
 	(rectangle
+		(start 191.77 16.51)
+		(end 223.52 31.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 43ed9d8b-adff-411a-88c4-32919167e3b6)
+	)
+	(rectangle
 		(start 254 15.24)
 		(end 403.86 57.15)
 		(stroke
@@ -7282,6 +7498,18 @@
 		)
 		(uuid "514a4ad3-d20e-4de9-a5f3-3b1e1525221a")
 	)
+	(text "Solar/VIN Connector"
+		(exclude_from_sim no)
+		(at 213.106 30.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "7177f755-3ae0-44ab-8dcf-6cfa85aae6d4")
+	)
 	(text "I2C Pullups and Protection"
 		(exclude_from_sim no)
 		(at 200.66 249.174 0)
@@ -7427,6 +7655,12 @@
 		(uuid "f50d5644-cc16-4892-9a33-45ec0e969aed")
 	)
 	(junction
+		(at 148.59 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02bfa251-c000-4c25-9c6f-c59375666c5b")
+	)
+	(junction
 		(at 88.9 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7443,6 +7677,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "191ed0f2-f5a3-4b31-9c83-c9fa03df6de2")
+	)
+	(junction
+		(at 184.15 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2244aa43-c407-4d9a-a885-84cd2c2e35e4")
 	)
 	(junction
 		(at 152.4 110.49)
@@ -7467,6 +7707,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ac40d0f-ae2e-4ed7-9b63-6e96611525bc")
+	)
+	(junction
+		(at 137.16 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d33a9dc-f6b8-4e8f-99e0-d499f59aa2b4")
 	)
 	(junction
 		(at 59.69 50.8)
@@ -7499,10 +7745,52 @@
 		(uuid "9edc0b07-f729-4cde-8cdf-41a81d53e2f0")
 	)
 	(junction
+		(at 137.16 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aba1c91d-3022-4a9d-bf50-2e0148558319")
+	)
+	(junction
 		(at 85.09 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1a37b6c-3dd7-421d-a244-562d188aafca")
+	)
+	(junction
+		(at 204.47 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8dcc93d-6ac0-4593-97a6-3d4834c7f6e7")
+	)
+	(junction
+		(at 184.15 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb53046c-f1dd-45ca-ac38-c21cad53ab16")
+	)
+	(junction
+		(at 137.16 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf2a2ce4-7218-4207-ba4d-fd686eb54ea9")
+	)
+	(junction
+		(at 148.59 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d15bf8f2-6384-466e-9c87-dec4e7b733bd")
+	)
+	(junction
+		(at 143.51 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9655160-21cf-4d71-91ae-d837eef03582")
+	)
+	(junction
+		(at 143.51 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db88c754-7a04-486d-97de-4c2912583501")
 	)
 	(junction
 		(at 59.69 53.34)
@@ -7515,6 +7803,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e93a87d2-a19d-44a5-9761-2a997e5d3b0c")
+	)
+	(junction
+		(at 170.18 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5be6b88-6059-4cd3-8b38-c1a8e2de5dd2")
 	)
 	(junction
 		(at 34.29 45.72)
@@ -7572,6 +7866,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 68.58) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050a4193-d565-48f2-974f-4c17116617ab")
+	)
+	(wire
+		(pts
 			(xy 106.68 39.37) (xy 106.68 38.1)
 		)
 		(stroke
@@ -7579,6 +7883,26 @@
 			(type default)
 		)
 		(uuid "064f39f2-a9df-427f-bf8f-617ee5d3466b")
+	)
+	(wire
+		(pts
+			(xy 189.23 27.94) (xy 170.18 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075e7e0e-74d5-4720-b444-9d80bc026800")
+	)
+	(wire
+		(pts
+			(xy 184.15 68.58) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0adacbb2-a577-45a0-8020-61d2417d2206")
 	)
 	(wire
 		(pts
@@ -7592,6 +7916,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 43.18) (xy 137.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10dcfc0f-7465-433e-a0ca-81e8911df255")
+	)
+	(wire
+		(pts
 			(xy 41.91 142.24) (xy 45.72 142.24)
 		)
 		(stroke
@@ -7602,6 +7936,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 40.64) (xy 137.16 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11530388-2fb6-4798-aa74-ca0f682b1e2a")
+	)
+	(wire
+		(pts
 			(xy 153.67 110.49) (xy 152.4 110.49)
 		)
 		(stroke
@@ -7609,6 +7953,16 @@
 			(type default)
 		)
 		(uuid "1190c736-2148-4e48-a5a5-9408119dd1c9")
+	)
+	(wire
+		(pts
+			(xy 137.16 38.1) (xy 128.27 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11cf61a1-21af-47e6-a005-f7698d95b8ee")
 	)
 	(wire
 		(pts
@@ -7672,6 +8026,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 68.58) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23308b28-57e8-4fb7-97c1-d57fa21ec0de")
+	)
+	(wire
+		(pts
 			(xy 39.37 41.91) (xy 39.37 33.02)
 		)
 		(stroke
@@ -7692,6 +8056,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 55.88) (xy 171.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296cddff-929c-4d76-afef-a9fde856b86e")
+	)
+	(wire
+		(pts
 			(xy 336.55 77.47) (xy 336.55 81.28)
 		)
 		(stroke
@@ -7699,6 +8073,16 @@
 			(type default)
 		)
 		(uuid "2ab79442-f6c8-4fbc-960c-f6d528b309f2")
+	)
+	(wire
+		(pts
+			(xy 148.59 76.2) (xy 160.02 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e270e9e-282b-4794-8a3a-02211314da8c")
 	)
 	(wire
 		(pts
@@ -7722,6 +8106,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 33.02) (xy 170.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2a16c4-8099-47ad-805e-d5990443f119")
+	)
+	(wire
+		(pts
+			(xy 172.72 76.2) (xy 184.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d41a825-e661-48f5-b731-5f7fbe8da4e2")
+	)
+	(wire
+		(pts
 			(xy 226.06 269.24) (xy 236.22 269.24)
 		)
 		(stroke
@@ -7739,6 +8143,16 @@
 			(type default)
 		)
 		(uuid "413c4084-8a17-439a-8035-85bff473dcc2")
+	)
+	(wire
+		(pts
+			(xy 170.18 33.02) (xy 184.15 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4204d6f5-ed54-48b7-91b5-5f2f0eaba5d8")
 	)
 	(wire
 		(pts
@@ -7832,6 +8246,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 68.58) (xy 184.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58386606-df9b-4cd1-b1eb-603b1b9147e0")
+	)
+	(wire
+		(pts
 			(xy 149.86 236.22) (xy 149.86 240.03)
 		)
 		(stroke
@@ -7892,6 +8316,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 29.21) (xy 189.23 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67be5e78-b85d-4e33-9bad-64f17b024b5b")
+	)
+	(wire
+		(pts
 			(xy 181.61 151.13) (xy 171.45 151.13)
 		)
 		(stroke
@@ -7929,6 +8363,16 @@
 			(type default)
 		)
 		(uuid "6c32acc3-db2f-45f8-8e77-22c47b465e16")
+	)
+	(wire
+		(pts
+			(xy 204.47 40.64) (xy 204.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3b9407-26e5-4b00-95b5-06c75062d48b")
 	)
 	(wire
 		(pts
@@ -8022,6 +8466,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 104.14) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b01493d-1b0e-46cb-bc57-8cd651c29666")
+	)
+	(wire
+		(pts
 			(xy 73.66 144.78) (xy 82.55 144.78)
 		)
 		(stroke
@@ -8029,6 +8483,26 @@
 			(type default)
 		)
 		(uuid "7b4855e8-d5fb-49a6-a8f1-5f6c2373ef40")
+	)
+	(wire
+		(pts
+			(xy 214.63 40.64) (xy 218.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b4d4b7-b336-40d8-adb2-756de964bd93")
+	)
+	(wire
+		(pts
+			(xy 190.5 40.64) (xy 194.31 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a65d9f-1aa6-40b6-8000-ca203cd9c3fd")
 	)
 	(wire
 		(pts
@@ -8059,6 +8533,16 @@
 			(type default)
 		)
 		(uuid "8a9ca933-8d07-46aa-938c-6978441fd24a")
+	)
+	(wire
+		(pts
+			(xy 125.73 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5e8808-3abc-4bdf-876c-7ca01eb43052")
 	)
 	(wire
 		(pts
@@ -8152,6 +8636,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 40.64) (xy 204.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b88adc5-09fc-4322-8da0-3609e35318e5")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 143.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cad98b9-c38c-4701-a6c9-066dbec26820")
+	)
+	(wire
+		(pts
 			(xy 226.06 271.78) (xy 236.22 271.78)
 		)
 		(stroke
@@ -8212,6 +8716,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 76.2) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fc33b0-881c-4054-a8c0-957c4bc02c6f")
+	)
+	(wire
+		(pts
 			(xy 92.71 27.94) (xy 92.71 50.8)
 		)
 		(stroke
@@ -8222,6 +8736,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 40.64) (xy 207.01 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa268583-5a1e-41da-b9ca-d6b17883ee36")
+	)
+	(wire
+		(pts
 			(xy 205.74 148.59) (xy 215.9 148.59)
 		)
 		(stroke
@@ -8229,6 +8753,16 @@
 			(type default)
 		)
 		(uuid "ae09ff31-9c76-41d4-a527-398d1dbb594b")
+	)
+	(wire
+		(pts
+			(xy 210.82 58.42) (xy 210.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1840a36-b7c8-42bb-a007-d947a5f59910")
 	)
 	(wire
 		(pts
@@ -8249,6 +8783,16 @@
 			(type default)
 		)
 		(uuid "b53112e6-e560-4e52-9cca-545533b36f04")
+	)
+	(wire
+		(pts
+			(xy 180.34 55.88) (xy 182.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68607d9-9050-4fb0-a833-21f6b2a56914")
 	)
 	(wire
 		(pts
@@ -8312,6 +8856,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 110.49) (xy 171.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a23e09-1de5-4709-a135-44e63d026ab8")
+	)
+	(wire
+		(pts
 			(xy 30.48 45.72) (xy 34.29 45.72)
 		)
 		(stroke
@@ -8319,6 +8873,16 @@
 			(type default)
 		)
 		(uuid "ce014163-8151-4524-b1f0-834314dd4c5f")
+	)
+	(wire
+		(pts
+			(xy 124.46 33.02) (xy 137.16 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19d82fb-f70c-4850-b693-28968ca651e6")
 	)
 	(wire
 		(pts
@@ -8402,6 +8966,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 76.2) (xy 210.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2cd0f3-fe2d-44d4-a5ac-15d45f2bcef1")
+	)
+	(wire
+		(pts
 			(xy 367.03 74.93) (xy 372.11 74.93)
 		)
 		(stroke
@@ -8409,6 +8983,16 @@
 			(type default)
 		)
 		(uuid "e6b6563c-3fea-43b4-a6c1-22647fba2c43")
+	)
+	(wire
+		(pts
+			(xy 184.15 76.2) (xy 195.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e46e4b-bae5-4649-8e7d-a1fe9c2505bb")
 	)
 	(wire
 		(pts
@@ -8452,6 +9036,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 68.58) (xy 143.51 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08987be-7a85-4074-be42-0b745fbcc024")
+	)
+	(wire
+		(pts
 			(xy 276.86 199.39) (xy 288.29 199.39)
 		)
 		(stroke
@@ -8462,6 +9056,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 76.2) (xy 148.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed8b49b-8648-467a-b67b-16439202a846")
+	)
+	(wire
+		(pts
 			(xy 351.79 81.28) (xy 367.03 81.28)
 		)
 		(stroke
@@ -8469,16 +9073,6 @@
 			(type default)
 		)
 		(uuid "feed92eb-37a7-4804-938a-c994475376fa")
-	)
-	(wire
-		(pts
-			(xy 171.45 104.14) (xy 171.45 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff7041b1-60e2-4920-b737-855203355309")
 	)
 	(label "PROT_BAT"
 		(at 73.66 30.48 0)
@@ -8520,6 +9114,16 @@
 		)
 		(uuid "08ca1a51-689b-437f-b0ae-c276d58c2c2b")
 	)
+	(label "5V_REG_L2"
+		(at 153.67 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18d0400a-3966-4e1a-853b-66f7c3ba407b")
+	)
 	(label "VBAT_SNS"
 		(at 45.72 190.5 0)
 		(effects
@@ -8550,6 +9154,16 @@
 		)
 		(uuid "2dcbcca7-808b-4eab-9888-33c85ca041e1")
 	)
+	(label "5V_REG_PG"
+		(at 163.83 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32fdeac1-630f-4018-a881-658d13c19926")
+	)
 	(label "I2C_SDA"
 		(at 119.38 271.78 0)
 		(effects
@@ -8559,6 +9173,16 @@
 			(justify left bottom)
 		)
 		(uuid "351375e7-ccd5-4190-8ed2-403b401906d6")
+	)
+	(label "5V_REG_L1"
+		(at 133.35 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37df584b-5e39-467f-8ef4-f499afd32fd8")
 	)
 	(label "CHG_PG"
 		(at 35.56 88.9 180)
@@ -8610,6 +9234,16 @@
 		)
 		(uuid "3f132c78-ef19-4a8c-be47-6a2585ecc645")
 	)
+	(label "5V_REG_VAUX"
+		(at 137.16 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b816857-3d16-462e-873c-c18e4205d10b")
+	)
 	(label "GPIO1"
 		(at 290.83 35.56 180)
 		(effects
@@ -8619,6 +9253,16 @@
 			(justify right bottom)
 		)
 		(uuid "4e26bd31-8dd1-415e-bcca-cb5309fbcd6f")
+	)
+	(label "5V_REG_L2"
+		(at 170.18 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "549ee2cf-912d-4475-ae1b-352144a2a678")
 	)
 	(label "I2C_SDA"
 		(at 73.66 271.78 0)
@@ -8670,6 +9314,26 @@
 		)
 		(uuid "6827382e-bd90-4587-9e99-88313563d222")
 	)
+	(label "5V_REG_EN"
+		(at 170.18 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f74ca75-88f4-43e1-9b20-908054b8a535")
+	)
+	(label "5V_REG_FB"
+		(at 204.47 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73979dcd-0d40-4843-8a03-c8e5cec2b546")
+	)
 	(label "CHG_CHG"
 		(at 71.12 83.82 0)
 		(effects
@@ -8699,6 +9363,16 @@
 			(justify left bottom)
 		)
 		(uuid "7d1ed6e7-06d6-478f-bd33-8fdcf86e5b00")
+	)
+	(label "5V_REG_L1"
+		(at 170.18 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ed7570e-db10-490e-87c3-33d86206b550")
 	)
 	(label "ISET"
 		(at 35.56 81.28 180)
@@ -8790,6 +9464,16 @@
 		)
 		(uuid "a18b21d6-abd6-456f-b100-24c21f156b51")
 	)
+	(label "5V_REG_FB"
+		(at 137.16 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7aad1f6-c680-46c0-8bd3-aa41136c2f60")
+	)
 	(label "CHG_TS"
 		(at 91.44 78.74 180)
 		(effects
@@ -8809,6 +9493,26 @@
 			(justify right bottom)
 		)
 		(uuid "ad764933-7b83-4b34-b460-056949bb163e")
+	)
+	(label "5V_REG_PG"
+		(at 137.16 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b14d5f9d-b26f-4f19-b48e-18d80466345f")
+	)
+	(label "5V_REG_PS_S"
+		(at 137.16 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b61de3c5-adbb-410e-8392-7e468d7e7014")
 	)
 	(label "REG_FB"
 		(at 73.66 149.86 0)
@@ -8850,6 +9554,16 @@
 		)
 		(uuid "d08aff95-9485-4623-991e-2ace67f1ae43")
 	)
+	(label "5V_REG_EN"
+		(at 210.82 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4380919-a25a-4dba-b3cb-2a689784784b")
+	)
 	(label "GPIO0"
 		(at 290.83 43.18 180)
 		(effects
@@ -8879,6 +9593,26 @@
 			(justify left bottom)
 		)
 		(uuid "e53b91f3-de3b-4412-afbc-eb3d34c05343")
+	)
+	(label "5V_REG_PS_S"
+		(at 210.82 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5b11df9-35a8-4d5e-b3f8-f85479395ba2")
+	)
+	(label "5V_REG_VAUX"
+		(at 195.58 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb426151-6bce-400b-9eeb-47cc70dd3f21")
 	)
 	(label "GPIO1"
 		(at 276.86 207.01 0)
@@ -9479,6 +10213,136 @@
 		)
 	)
 	(symbol
+		(lib_id "XFL4020-152MEC:XFL4020-152MEC")
+		(at 133.35 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "056bcf6b-f0b5-476e-8d78-428e38603078")
+		(property "Reference" "L2"
+			(at 143.51 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XFL4020-152MEC"
+			(at 143.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XFL4020152MEC"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf"
+			(at 149.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "COILCRAFT - XFL4020-152MEC - Power Inductor (SMD), 1.5 H, 9.1 A, Shielded, 4.1 A, XFL4020"
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "COILCRAFT - XFL4020-152MEC - Power Inductor (SMD), 1.5 H, 9.1 A, Shielded, 4.1 A, XFL4020"
+			(at 149.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.1"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "994-XFL4020-152MEC"
+			(at 149.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Coilcraft/XFL4020-152MEC?qs=zCSbvcPd3pak5QYA2uujRA%3D%3D"
+			(at 149.86 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "COILCRAFT"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XFL4020-152MEC"
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec8d85b6-5aad-46b0-9560-1d6db12d2aed")
+		)
+		(pin "1"
+			(uuid "ee99d196-092f-43fd-b58c-de2cc724aba6")
+		)
+		(instances
+			(project ""
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 200.66 148.59 0)
 		(unit 1)
@@ -9681,6 +10545,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 167.64 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a2e2f6f-8a89-4bf5-9edc-6ce396a464a0")
+		(property "Reference" "R27"
+			(at 167.64 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 167.64 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 167.64 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e8fb509-e501-43b0-b31a-2c779d307f52")
+		)
+		(pin "2"
+			(uuid "36818f93-c708-4706-9995-a6d7c35e9729")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 45.72 0)
 		(unit 1)
@@ -9748,6 +10680,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 184.15 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e09fc89-0ea2-47ea-a74a-20c43229b9bf")
+		(property "Reference" "#PWR088"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa068d11-fdd0-4887-9d5d-0d75d86c6e76")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 195.58 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9807,6 +10804,71 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1249347d-855a-4fd1-903a-1096884df12d")
+		(property "Reference" "#PWR096"
+			(at 128.27 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c10c0ca-e0b0-4834-841a-c2dd12dee9e1")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -10489,6 +11551,71 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18448595-fd93-4ff7-ae03-93495f5f61b7")
+		(property "Reference" "#PWR085"
+			(at 124.46 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9f2770e-01d1-4379-9e13-e2a10a04ba0b")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -11782,6 +12909,282 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 210.82 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b335cae-f5de-4715-8fe4-30a688b0b74f")
+		(property "Reference" "#PWR090"
+			(at 210.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VSOLAR"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52ffda18-d6cd-4d6f-8e6a-6b55b524cfc2")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 195.58 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2db27b83-835b-4c60-aa86-9ce21ad758c0")
+		(property "Reference" "C13"
+			(at 199.39 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 199.39 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 194.6148 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a881866d-ebe8-47be-b557-730dd6178d9c")
+		)
+		(pin "2"
+			(uuid "b38d331d-528f-4cc5-9350-d5537c8243ee")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 137.16 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2de1446a-3788-4321-b48a-814eb07fd2cb")
+		(property "Reference" "C8"
+			(at 140.97 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 140.97 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 138.1252 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GRM21BC81C226ME44L"
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GRM21BC81C226ME44L"
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de1effc9-e91a-402c-9018-7e518afd228f")
+		)
+		(pin "2"
+			(uuid "61eb22f4-6acc-4a1c-887f-59d5747815a0")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.15 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e776021-146d-4974-abdf-dc5f95b67d9a")
+		(property "Reference" "C11"
+			(at 187.96 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 187.96 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 185.1152 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GRM21BC71E106ME11L"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GRM21BC71E106ME11L"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ad4a59e-b9ee-4546-bfee-87552918e596")
+		)
+		(pin "2"
+			(uuid "fb71f405-58a3-4928-9b07-c78d4c206639")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 34.29 115.57 90)
 		(unit 1)
@@ -12063,6 +13466,83 @@
 			(project ""
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 176.53 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33f13ddf-3184-43dd-aaa5-e7db5c2cb76b")
+		(property "Reference" "D14"
+			(at 174.9425 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RED"
+			(at 174.9425 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb1abd65-04d8-4a36-ae65-b7d58f7a5fba")
+		)
+		(pin "1"
+			(uuid "8b526e91-3c62-4d79-8c56-d1308dbf935a")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -12469,6 +13949,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 210.82 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b39d88d-0e45-47fc-a383-097e6c9104df")
+		(property "Reference" "R25"
+			(at 213.36 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 213.36 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 209.042 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c53f80bf-1800-4096-9658-d2b9e8f593c8")
+		)
+		(pin "2"
+			(uuid "41f1b620-5399-40f5-b364-8a829fad3e03")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ESDZV5H-1BU2:ESDZV5H-1BU2")
 		(at 25.4 243.84 90)
 		(unit 1)
@@ -12595,6 +14145,76 @@
 			(project ""
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d71ce8d-93ff-4bea-9e95-2ba3ce03724e")
+		(property "Reference" "C7"
+			(at 152.4 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 152.4 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 149.5552 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GRM21BC81C226ME44L"
+			(at 148.59 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GRM21BC81C226ME44L"
+			(at 148.59 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fe0628e-625e-47c1-85de-b98f272511f8")
+		)
+		(pin "2"
+			(uuid "6ecc4d96-6762-4cda-975b-d83d208e88ef")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12965,7 +14585,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 198.12 50.8 0)
+		(at 196.85 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12974,7 +14594,7 @@
 		(fields_autoplaced yes)
 		(uuid "417c1168-1594-4711-a7e9-ec25bb34f231")
 		(property "Reference" "#PWR061"
-			(at 198.12 54.61 0)
+			(at 196.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12983,7 +14603,7 @@
 			)
 		)
 		(property "Value" "+VSOLAR"
-			(at 198.12 45.72 0)
+			(at 196.85 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12991,7 +14611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 50.8 0)
+			(at 196.85 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13000,7 +14620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 50.8 0)
+			(at 196.85 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13009,7 +14629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 198.12 50.8 0)
+			(at 196.85 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13156,6 +14776,141 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 195.58 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "436a90d0-da13-47b6-b210-a260436bc5f4")
+		(property "Reference" "C12"
+			(at 199.39 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 199.39 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 196.5452 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GRM21BC71E106ME11L"
+			(at 195.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GRM21BC71E106ME11L"
+			(at 195.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19abec87-e1ea-48b8-8f4e-25dde511c5cd")
+		)
+		(pin "2"
+			(uuid "00f6be98-8fcf-4bd2-9dbd-2753f701aca2")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 143.51 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "444a255d-7148-4fe1-9f08-d91b54a99901")
+		(property "Reference" "#PWR086"
+			(at 143.51 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 143.51 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e27f9dac-7c74-4826-95b5-f97be7c5779b")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -13569,6 +15324,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 182.88 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d3ebbb6-fff8-4c40-9b25-846d26a47aff")
+		(property "Reference" "#PWR095"
+			(at 182.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VSOLAR"
+			(at 182.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "113e5114-7bdf-43b1-909f-0c8eb77f588c")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 40.64 185.42 0)
 		(unit 1)
@@ -13639,17 +15460,86 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 133.35 66.04 0)
+		(lib_id "Device:R")
+		(at 210.82 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "508e3f79-b93f-4e78-9dca-ccd62b558c2a")
+		(property "Reference" "R26"
+			(at 213.36 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 213.36 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 209.042 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0f57d9b-5b90-4c2a-8ae6-4b1b6f688d7f")
+		)
+		(pin "2"
+			(uuid "96690bbd-d90d-436e-841f-42b65ccf4289")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 124.46 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "51e44332-516e-4d36-898c-f010fda3e224")
 		(property "Reference" "#PWR033"
-			(at 133.35 69.85 0)
+			(at 124.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13658,7 +15548,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 133.35 60.96 0)
+			(at 124.46 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13666,7 +15556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 66.04 0)
+			(at 124.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13675,7 +15565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 66.04 0)
+			(at 124.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13684,7 +15574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 133.35 66.04 0)
+			(at 124.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,7 +15586,7 @@
 			(uuid "3cbf67ac-b79f-416d-ae8e-f73c98e4a37a")
 		)
 		(instances
-			(project ""
+			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "#PWR033")
 					(unit 1)
@@ -13838,7 +15728,7 @@
 	)
 	(symbol
 		(lib_id "XT30UPB-M:XT30UPB-M")
-		(at 205.74 50.8 0)
+		(at 204.47 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13847,7 +15737,7 @@
 		(fields_autoplaced yes)
 		(uuid "592fdbf8-4f29-4d5b-ad9c-a07333eaec67")
 		(property "Reference" "J6"
-			(at 212.09 50.7999 0)
+			(at 210.82 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13856,7 +15746,7 @@
 			)
 		)
 		(property "Value" "XT30UPB-M"
-			(at 212.09 53.3399 0)
+			(at 210.82 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13865,7 +15755,7 @@
 			)
 		)
 		(property "Footprint" "XT30UPB-M:AMASS_XT30UPB-M"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13875,7 +15765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13884,7 +15774,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13893,7 +15783,7 @@
 			)
 		)
 		(property "MF" "amass"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13903,7 +15793,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "10.7mm"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13913,7 +15803,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13923,7 +15813,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13933,7 +15823,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13943,7 +15833,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13953,7 +15843,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13963,7 +15853,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13973,7 +15863,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13983,7 +15873,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13993,7 +15883,7 @@
 			)
 		)
 		(property "MP" "XT30UPB-M"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14003,7 +15893,7 @@
 			)
 		)
 		(property "Description_1" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14013,7 +15903,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14023,7 +15913,7 @@
 			)
 		)
 		(property "MANUFACTURER" "amass"
-			(at 205.74 50.8 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14245,6 +16135,136 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
+		(at 184.15 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a35c5aa-2205-4e44-8ed4-3eb03439befd")
+		(property "Reference" "#PWR087"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VSOLAR"
+			(at 184.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 184.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8684ad16-4294-4a97-abe3-fda18f77c341")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ac75213-1c93-4f54-8e47-2c44b605e385")
+		(property "Reference" "#PWR094"
+			(at 195.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1feb3d1b-3e1a-49fe-981b-9c3827ef25dc")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
 		(at 96.52 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14311,7 +16331,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 171.45 104.14 0)
+		(at 172.72 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14320,7 +16340,7 @@
 		(fields_autoplaced yes)
 		(uuid "5caa1303-9ecb-4515-be04-5994290c4698")
 		(property "Reference" "#PWR025"
-			(at 171.45 107.95 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14329,7 +16349,7 @@
 			)
 		)
 		(property "Value" "+VBAT"
-			(at 171.45 99.06 0)
+			(at 172.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14337,7 +16357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 104.14 0)
+			(at 172.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14346,7 +16366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 104.14 0)
+			(at 172.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14355,7 +16375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 171.45 104.14 0)
+			(at 172.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15205,6 +17225,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 189.23 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a90483d-601c-48ea-8ebb-ea91f9da191a")
+		(property "Reference" "#PWR092"
+			(at 189.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba2604d4-9305-4f1a-a149-18bdf57a895b")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 176.53 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15264,6 +17349,74 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198.12 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ee9bc48-5fae-42e3-a13c-22cdbe7cc1ba")
+		(property "Reference" "R28"
+			(at 198.12 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680k"
+			(at 198.12 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 198.12 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 198.12 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c352e4c-934c-49cc-a020-69e7603dce8d")
+		)
+		(pin "2"
+			(uuid "9d8aa732-722e-4cf8-bd67-753168d8f734")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -15526,6 +17679,76 @@
 			(project ""
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "729f8422-3d00-49f5-a871-ffd439f974e3")
+		(property "Reference" "C6"
+			(at 163.83 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 163.83 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 160.9852 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GRM21BC81C226ME44L"
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GRM21BC81C226ME44L"
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e923fe0-bd46-4d60-b0c0-cd4a6a4d0061")
+		)
+		(pin "2"
+			(uuid "a42e2e04-e1d4-45e8-88e4-ffa7aee63025")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -16207,6 +18430,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 210.82 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8347a3f6-56e9-4677-91a1-734a49dd89e4")
+		(property "Reference" "#PWR091"
+			(at 210.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VSOLAR"
+			(at 210.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ede5bda0-b567-4d66-a15c-76b2dad40f12")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 35.56 78.74 0)
 		(unit 1)
@@ -16871,6 +19160,139 @@
 			(project ""
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "954d574c-8c79-4998-abb9-c62f26fc3cde")
+		(property "Reference" "R29"
+			(at 210.82 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "130k"
+			(at 210.82 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 210.82 42.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1490c139-d183-4733-b172-665327daf14a")
+		)
+		(pin "2"
+			(uuid "5249f798-b3c0-47ec-8f4c-f5715934d4dc")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 184.15 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9720effb-dcac-4f49-aa0c-919c3990d3a6")
+		(property "Reference" "#PWR084"
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VSOLAR"
+			(at 184.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaaf022d-3710-4e31-afe2-8ec9b2fa6133")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -17698,6 +20120,71 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2361447-b6d7-45bd-86fc-9b65df38adf7")
+		(property "Reference" "#PWR089"
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06032bb1-e397-436b-a47f-bf79ad975fdf")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -18575,7 +21062,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 53.34 0)
+		(at 196.85 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18584,7 +21071,7 @@
 		(fields_autoplaced yes)
 		(uuid "b08f638d-4d3a-40b8-a3ea-ee1f2554f2ed")
 		(property "Reference" "#PWR062"
-			(at 198.12 59.69 0)
+			(at 196.85 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18593,7 +21080,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 58.42 0)
+			(at 196.85 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18601,7 +21088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 53.34 0)
+			(at 196.85 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18610,7 +21097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 53.34 0)
+			(at 196.85 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18619,7 +21106,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 53.34 0)
+			(at 196.85 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19116,6 +21603,71 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be1a740d-7893-42bf-a889-53c5c61f1361")
+		(property "Reference" "#PWR093"
+			(at 170.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca54f07c-b7b8-4aef-8531-61028e0b00f9")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -19719,6 +22271,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd0312fe-f876-45e0-a83b-1292dec8efbd")
+		(property "Reference" "#PWR098"
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "069ddb38-2b3b-4a5c-ac98-8b82a2c462c1")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "B4B-PH-SM4-TB_LF__SN_:B4B-PH-SM4-TB_LF__SN_")
 		(at 144.78 269.24 0)
 		(unit 1)
@@ -19849,6 +22466,76 @@
 			(project "ESP32CAM-Weather-Station"
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 172.72 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2bc7998-b3bf-4c58-8512-d218159f037e")
+		(property "Reference" "C10"
+			(at 176.53 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 176.53 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 173.6852 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TMK107BBJ106MA-T"
+			(at 172.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TMK107BBJ106MA-T"
+			(at 172.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2770b7d-c3e7-4d7f-af39-14edd64d2686")
+		)
+		(pin "2"
+			(uuid "2085be7e-a9b2-4065-bf15-284efbe0c33d")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -21074,6 +23761,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 190.5 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e362b2ce-5ab2-4b8c-aaf1-1756d78a14d1")
+		(property "Reference" "#PWR097"
+			(at 190.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 190.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12719f63-39d7-49be-84d4-6d2e029aa912")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 106.68 29.21 0)
 		(unit 1)
@@ -21418,7 +24170,7 @@
 	)
 	(symbol
 		(lib_id "TPS63070RNMR:TPS63070RNMR")
-		(at 138.43 43.18 0)
+		(at 137.16 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21427,7 +24179,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb462068-1fb9-458d-beef-c8697165523c")
 		(property "Reference" "IC7"
-			(at 154.94 35.56 0)
+			(at 153.67 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21435,7 +24187,7 @@
 			)
 		)
 		(property "Value" "TPS63070RNMR"
-			(at 154.94 38.1 0)
+			(at 153.67 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21443,7 +24195,7 @@
 			)
 		)
 		(property "Footprint" "TPS63070RNMR:TPS630701RNMR"
-			(at 167.64 40.64 0)
+			(at 166.37 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21453,7 +24205,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/tps63070"
-			(at 167.64 43.18 0)
+			(at 166.37 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21463,7 +24215,7 @@
 			)
 		)
 		(property "Description" "Wide Input Voltage (2V-16V) Buck-Boost Converter"
-			(at 138.43 43.18 0)
+			(at 137.16 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21472,7 +24224,7 @@
 			)
 		)
 		(property "Description_1" "Wide Input Voltage (2V-16V) Buck-Boost Converter"
-			(at 167.64 45.72 0)
+			(at 166.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21482,7 +24234,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 167.64 48.26 0)
+			(at 166.37 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21492,7 +24244,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TPS63070RNMR"
-			(at 167.64 50.8 0)
+			(at 166.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21502,7 +24254,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS63070RNMR?qs=LuYMPh7GGMS51GHntBDRnQ%3D%3D"
-			(at 167.64 53.34 0)
+			(at 166.37 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21512,7 +24264,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 167.64 55.88 0)
+			(at 166.37 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21522,7 +24274,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TPS63070RNMR"
-			(at 167.64 58.42 0)
+			(at 166.37 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22211,6 +24963,76 @@
 			(project ""
 				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
 					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f57c1db3-3031-4ef1-8f59-15c3f4ff4c04")
+		(property "Reference" "C9"
+			(at 129.54 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 129.54 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 126.6952 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TMK107BBJ106MA-T"
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TMK107BBJ106MA-T"
+			(at 125.73 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aab9707f-c9d6-4ac4-8049-2c5b273782fd")
+		)
+		(pin "2"
+			(uuid "e729357b-9b65-4946-ab75-08310d2fa9b0")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "C9")
 					(unit 1)
 				)
 			)
