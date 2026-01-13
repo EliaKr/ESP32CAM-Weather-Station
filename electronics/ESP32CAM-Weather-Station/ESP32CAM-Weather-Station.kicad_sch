@@ -6879,7 +6879,7 @@
 	)
 	(text "ESP32-CAM"
 		(exclude_from_sim no)
-		(at 279.654 246.634 0)
+		(at 285.496 246.126 0)
 		(effects
 			(font
 				(size 2.54 2.54)
