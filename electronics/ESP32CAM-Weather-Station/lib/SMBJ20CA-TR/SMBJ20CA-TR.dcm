@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMBJ20CA-TR
+D 32.4V Clamp 19.4A Ipp Tvs Diode Surface Mount SMB
+K
+F https://www.st.com/resource/en/datasheet/smbj58ca.pdf
+$ENDCMP
+#
+#End Doc Library

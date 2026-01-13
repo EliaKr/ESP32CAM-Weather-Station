@@ -21,4 +21,7 @@
   (lib (name "TPS63070RNMR")(type "Legacy")(uri "${KIPRJMOD}/lib/TPS63070RNMR/TPS63070RNMR.lib")(options "")(descr ""))
   (lib (name "CSD16406Q3")(type "Legacy")(uri "${KIPRJMOD}/lib/CSD16406Q3/CSD16406Q3.lib")(options "")(descr ""))
   (lib (name "DFE252012P-1R0M=P2")(type "Legacy")(uri "${KIPRJMOD}/lib/DFE252012P-1R0M=P2/DFE252012P-1R0M=P2.lib")(options "")(descr ""))
+  (lib (name "ESDZV5H-1BU2")(type "Legacy")(uri "${KIPRJMOD}/lib/ESDZV5H-1BU2/ESDZV5H-1BU2.lib")(options "")(descr ""))
+  (lib (name "SMBJ20CA-TR")(type "Legacy")(uri "${KIPRJMOD}/lib/SMBJ20CA-TR/SMBJ20CA-TR.lib")(options "")(descr ""))
+  (lib (name "GDT25-07-S1-RP")(type "Legacy")(uri "${KIPRJMOD}/lib/GDT25-07-S1-RP/GDT25-07-S1-RP.lib")(options "")(descr ""))
 )

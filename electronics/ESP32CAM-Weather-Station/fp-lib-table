@@ -21,4 +21,7 @@
   (lib (name "TPS63070RNMR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS63070RNMR")(options "")(descr ""))
   (lib (name "CSD16406Q3")(type "KiCad")(uri "${KIPRJMOD}/lib/CSD16406Q3")(options "")(descr ""))
   (lib (name "DFE252012P-1R0M=P2")(type "KiCad")(uri "${KIPRJMOD}/lib/DFE252012P-1R0M=P2")(options "")(descr ""))
+  (lib (name "ESDZV5H-1BU2")(type "KiCad")(uri "${KIPRJMOD}/lib/ESDZV5H-1BU2")(options "")(descr ""))
+  (lib (name "SMBJ20CA-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/SMBJ20CA-TR")(options "")(descr ""))
+  (lib (name "GDT25-07-S1-RP")(type "KiCad")(uri "${KIPRJMOD}/lib/GDT25-07-S1-RP")(options "")(descr ""))
 )
