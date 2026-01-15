@@ -1234,25 +1234,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 21.59 7.62 0)
+			(property "Reference" "Q3"
+				(at 12.7 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "CSD16406Q3"
-				(at 21.59 5.08 0)
+				(at 12.7 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "DQG_VSON-CLIP"
+			(property "Footprint" "CSD16406Q3:DQG_VSON-CLIP"
 				(at 21.59 2.54 0)
 				(effects
 					(font
@@ -1498,6 +1496,320 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "CSD16406Q3_1_1"
+				(pin passive line
+					(at 12.7 5.08 270)
+					(length 2.54)
+					(name "D_EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CSD16406Q3_1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q2"
+				(at 12.7 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CSD16406Q3"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "DQG_VSON-CLIP"
+				(at 21.59 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/csd16406q3"
+				(at 21.59 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm"
+				(at 21.59 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 21.59 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-CSD16406Q3"
+				(at 21.59 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CSD16406Q3?qs=SuDOdTVxq4Wogv4PDdDFZA%3D%3D"
+				(at 21.59 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CSD16406Q3"
+				(at 21.59 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "CSD16406Q3_1_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "S_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "S_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "S_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "D_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "D_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CSD16406Q3_1_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CSD16406Q3_1_1_1"
+				(pin passive line
+					(at 12.7 -12.7 90)
+					(length 2.54)
+					(name "D_EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -6986,12 +7298,6 @@
 		(uuid "05fcba9f-88ef-468d-9bab-61729d6ea4c8")
 	)
 	(junction
-		(at 349.25 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1594e760-4749-4794-9373-9d0be69728d2")
-	)
-	(junction
 		(at 40.64 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7088,16 +7394,16 @@
 		(uuid "9abb85ca-ec1b-49f7-a35a-793ad6d5aad9")
 	)
 	(junction
-		(at 379.73 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9edc0b07-f729-4cde-8cdf-41a81d53e2f0")
-	)
-	(junction
 		(at 137.16 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aba1c91d-3022-4a9d-bf50-2e0148558319")
+	)
+	(junction
+		(at 45.72 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c045e703-b6f8-4c40-9d7f-5f59b01b33f7")
 	)
 	(junction
 		(at 85.09 50.8)
@@ -7146,6 +7452,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e14fe7c3-2220-4c95-85a8-64944abb9a13")
+	)
+	(junction
+		(at 59.69 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e78bee8a-ece0-436e-9b64-126c2acb91ef")
 	)
 	(junction
 		(at 341.63 241.3)
@@ -7228,6 +7540,16 @@
 			(type default)
 		)
 		(uuid "0416f84b-5580-4b4a-8b9a-68aeb5e6555c")
+	)
+	(wire
+		(pts
+			(xy 59.69 58.42) (xy 72.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042c7e7c-16b5-4a68-bfec-6b6969818800")
 	)
 	(wire
 		(pts
@@ -7608,6 +7930,16 @@
 			(type default)
 		)
 		(uuid "44f3fad5-deb1-4b8a-94fc-a71994c4f975")
+	)
+	(wire
+		(pts
+			(xy 46.99 58.42) (xy 59.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450bce8e-c631-46fc-aca9-a8ed249f1a6c")
 	)
 	(wire
 		(pts
@@ -8051,13 +8383,13 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 26.67) (xy 349.25 22.86)
+			(xy 110.49 134.62) (xy 110.49 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9570e5b4-a36d-43b0-8b4b-bebbf94bdb84")
+		(uuid "995cb2f6-38a1-4143-96bd-6363234ff23e")
 	)
 	(wire
 		(pts
@@ -8111,16 +8443,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 22.86) (xy 379.73 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d597c9-40be-429f-8ec2-dc12713a93e3")
-	)
-	(wire
-		(pts
 			(xy 71.12 86.36) (xy 76.2 86.36)
 		)
 		(stroke
@@ -8148,6 +8470,16 @@
 			(type default)
 		)
 		(uuid "a423dab9-c555-48f1-82ea-0a086fed1ade")
+	)
+	(wire
+		(pts
+			(xy 45.72 133.35) (xy 45.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a595d734-efdb-4436-8f7d-29c25141b05d")
 	)
 	(wire
 		(pts
@@ -8271,16 +8603,6 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 22.86) (xy 379.73 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b99247a2-8a0a-4b8b-b443-3819e4a4e363")
-	)
-	(wire
-		(pts
 			(xy 386.08 157.48) (xy 398.78 157.48)
 		)
 		(stroke
@@ -8338,6 +8660,16 @@
 			(type default)
 		)
 		(uuid "c4af0dfa-7829-4761-8867-d99e811c2cea")
+	)
+	(wire
+		(pts
+			(xy 59.69 58.42) (xy 59.69 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e5f3e5-2992-4e4a-b336-8f3cb2eed3e4")
 	)
 	(wire
 		(pts
@@ -8689,6 +9021,16 @@
 		)
 		(uuid "2dcbcca7-808b-4eab-9888-33c85ca041e1")
 	)
+	(label "3V3_PREFUSE"
+		(at 110.49 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "320b4e7c-0e43-4c71-a481-9eceb824c75a")
+	)
 	(label "5V_REG_PG"
 		(at 163.83 55.88 180)
 		(effects
@@ -8788,6 +9130,16 @@
 			(justify right bottom)
 		)
 		(uuid "435d6f44-2046-471f-a3cb-4cdf1915b7e8")
+	)
+	(label "3V3_PREFUSE"
+		(at 45.72 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4968f4d5-bf4b-462e-9b2f-52369f726a61")
 	)
 	(label "5V_REG_VAUX"
 		(at 137.16 30.48 180)
@@ -10885,6 +11237,9 @@
 		)
 		(pin "4"
 			(uuid "82dbdaf3-8d20-415b-8d24-d9d41b20bd20")
+		)
+		(pin "9"
+			(uuid "64f57bb5-3feb-4cf4-b034-bcef480884f2")
 		)
 		(instances
 			(project "ESP32CAM-Weather-Station"
@@ -19017,72 +19372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 110.49 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85e60175-1a4a-4cc2-8d85-efa1734b41fa")
-		(property "Reference" "#PWR054"
-			(at 110.49 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 110.49 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 110.49 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3b43df7-e05c-4d10-80ca-ba2ee61efc78")
-		)
-		(instances
-			(project "ESP32CAM-Weather-Station"
-				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 161.29 237.49 0)
 		(unit 1)
@@ -21961,6 +22250,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CSD16406Q3_1")
 		(lib_id "CSD16406Q3:CSD16406Q3")
 		(at 34.29 45.72 0)
 		(unit 1)
@@ -21986,7 +22276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CSD16406Q3:DQG_VSON-CLIP"
+		(property "Footprint" "DQG_VSON-CLIP"
 			(at 55.88 43.18 0)
 			(effects
 				(font
@@ -22098,6 +22388,9 @@
 		)
 		(pin "4"
 			(uuid "5363f4f0-f8d0-4009-b867-5e3d6cbb3fb0")
+		)
+		(pin "9"
+			(uuid "d5b4146b-e29f-412e-8ec4-fd1b97c3263d")
 		)
 		(instances
 			(project ""
