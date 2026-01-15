@@ -4786,25 +4786,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 29.21 7.62 0)
+			(property "Reference" "IC7"
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "TPS63070RNMR"
-				(at 29.21 5.08 0)
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "TPS630701RNMR"
+			(property "Footprint" "TPS63070RNMR:TPS630701RNMR"
 				(at 29.21 2.54 0)
 				(effects
 					(font
@@ -5176,6 +5174,44 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "TPS63070RNMR_1_1"
+				(pin passive line
+					(at 15.24 -22.86 90)
+					(length 2.54)
+					(name "VIN_LINK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -22.86 90)
+					(length 2.54)
+					(name "VOUT_LINK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -7583,6 +7619,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 50.8) (xy 156.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d781a1-f7a8-4235-bbc5-464a927c6e05")
+	)
+	(wire
+		(pts
 			(xy 184.15 68.58) (xy 195.58 68.58)
 		)
 		(stroke
@@ -8013,6 +8059,26 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 50.8) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bbffb38-ca38-4fa3-896e-6ee9db8d7780")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 152.4 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c779ef7-bd77-4d3e-92a2-d9d0c8494ab6")
+	)
+	(wire
+		(pts
 			(xy 60.96 269.24) (xy 71.12 269.24)
 		)
 		(stroke
@@ -8350,6 +8416,16 @@
 			(type default)
 		)
 		(uuid "8e8c4812-6ce5-43a5-b28e-f3a3cd96084a")
+	)
+	(wire
+		(pts
+			(xy 156.21 50.8) (xy 156.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ab38e8-4f4d-4dc0-b60f-f93e77084705")
 	)
 	(wire
 		(pts
@@ -17489,6 +17565,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 144.78 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b11be2b-d64e-44b4-b0dc-5e85ce2ba6d7")
+		(property "Reference" "#PWR013"
+			(at 144.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VSOLAR"
+			(at 144.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 144.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ed90451-946a-4ab3-889b-503fc733e233")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 382.27 196.85 0)
 		(unit 1)
@@ -22866,6 +23007,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c38414b4-f01d-4d45-8d60-6b7d99b1ba9c")
+		(property "Reference" "#PWR014"
+			(at 162.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 162.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 162.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a336d1f0-e439-4302-ad16-0bb34c236724")
+		)
+		(instances
+			(project "ESP32CAM-Weather-Station"
+				(path "/7d0fd3b7-d6b0-4ab6-a180-9a1d35f36f7a"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 274.32 190.5 0)
 		(unit 1)
@@ -25510,6 +25716,12 @@
 		)
 		(pin "1"
 			(uuid "6a94c612-9237-42e4-baa6-dd5773efd869")
+		)
+		(pin "16"
+			(uuid "d3824bdb-f250-42cd-ac33-09f4127f32db")
+		)
+		(pin "17"
+			(uuid "c1865aee-0518-4dea-8059-5009ee17d70d")
 		)
 		(instances
 			(project ""
