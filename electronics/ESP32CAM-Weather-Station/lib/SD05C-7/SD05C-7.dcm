@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SD05C-7
+D ESD Suppressors / TVS Diodes Surge Protection PP SOD323 T&R 3K
+K
+F https://www.diodes.com//assets/Datasheets/SD05C.pdf
+$ENDCMP
+#
+#End Doc Library

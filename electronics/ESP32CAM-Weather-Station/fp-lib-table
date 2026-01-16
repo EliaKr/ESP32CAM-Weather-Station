@@ -25,4 +25,5 @@
   (lib (name "SMBJ20CA-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/SMBJ20CA-TR")(options "")(descr ""))
   (lib (name "GDT25-07-S1-RP")(type "KiCad")(uri "${KIPRJMOD}/lib/GDT25-07-S1-RP")(options "")(descr ""))
   (lib (name "XFL4020-152MEC")(type "KiCad")(uri "${KIPRJMOD}/lib/XFL4020-152MEC")(options "")(descr ""))
+  (lib (name "SD05C-7")(type "KiCad")(uri "${KIPRJMOD}/lib/SD05C-7")(options "")(descr ""))
 )

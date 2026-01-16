@@ -25,4 +25,5 @@
   (lib (name "SMBJ20CA-TR")(type "Legacy")(uri "${KIPRJMOD}/lib/SMBJ20CA-TR/SMBJ20CA-TR.lib")(options "")(descr ""))
   (lib (name "GDT25-07-S1-RP")(type "Legacy")(uri "${KIPRJMOD}/lib/GDT25-07-S1-RP/GDT25-07-S1-RP.lib")(options "")(descr ""))
   (lib (name "XFL4020-152MEC")(type "Legacy")(uri "${KIPRJMOD}/lib/XFL4020-152MEC/XFL4020-152MEC.lib")(options "")(descr ""))
+  (lib (name "SD05C-7")(type "Legacy")(uri "${KIPRJMOD}/lib/SD05C-7/SD05C-7.lib")(options "")(descr ""))
 )
