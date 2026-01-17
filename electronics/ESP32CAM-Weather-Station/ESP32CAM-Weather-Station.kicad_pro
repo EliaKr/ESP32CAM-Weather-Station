@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.225,
-          "width": 0.187
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -66,6 +66,62 @@
         [
           "copper_edge_clearance|199900000|100000000|9ca66f8d-ead2-4b4b-ae82-4754018782dd|fd5b937b-32ac-4951-9e4d-a95e1dea5cb4",
           "Aesthetic, no impact on performance. Does not impact DFM."
+        ],
+        [
+          "shorting_items|167008856|101188336|03aa6419-73a8-41fd-93cb-b90f1fbb315c|99147088-4af2-4660-9cd1-d398e53b435c",
+          "On purpose."
+        ],
+        [
+          "shorting_items|167008856|101188336|80384837-9667-49c7-8908-bde3ee86fef3|99147088-4af2-4660-9cd1-d398e53b435c",
+          "On purpose."
+        ],
+        [
+          "shorting_items|171208856|115588336|80384837-9667-49c7-8908-bde3ee86fef3|f4a41483-747a-4614-81d6-c055e662e989",
+          "On purpose."
+        ],
+        [
+          "shorting_items|171208856|115588336|8912b529-a8e3-4055-ab34-c5206538f605|f4a41483-747a-4614-81d6-c055e662e989",
+          "On purpose."
+        ],
+        [
+          "shorting_items|171808856|85338336|80384837-9667-49c7-8908-bde3ee86fef3|b3cb3427-812e-40e7-898a-6ae26f39e05b",
+          "On purpose."
+        ],
+        [
+          "shorting_items|171808856|85338336|b3cb3427-812e-40e7-898a-6ae26f39e05b|f4bc333b-1096-49cc-a15e-562713d332db",
+          "On purpose."
+        ],
+        [
+          "shorting_items|171908856|102238336|30ced2a0-3bc8-4952-af2d-de1e4eb01822|80384837-9667-49c7-8908-bde3ee86fef3",
+          "On purpose."
+        ],
+        [
+          "shorting_items|171908856|102238336|30ced2a0-3bc8-4952-af2d-de1e4eb01822|a117ed84-f1a2-4227-a667-e8f465141324",
+          "On purpose."
+        ],
+        [
+          "shorting_items|172658856|109188336|80384837-9667-49c7-8908-bde3ee86fef3|f4a41483-747a-4614-81d6-c055e662e989",
+          "On purpose."
+        ],
+        [
+          "shorting_items|172658856|109188336|ab254cb0-70a6-4f5c-80bf-c2c60e6ae8f1|f4a41483-747a-4614-81d6-c055e662e989",
+          "On purpose."
+        ],
+        [
+          "shorting_items|177158856|90188336|80384837-9667-49c7-8908-bde3ee86fef3|b3cb3427-812e-40e7-898a-6ae26f39e05b",
+          "On purpose."
+        ],
+        [
+          "shorting_items|177158856|90188336|b3cb3427-812e-40e7-898a-6ae26f39e05b|ddddb981-2f08-4de4-a42f-a2ca190a403e",
+          "On purpose."
+        ],
+        [
+          "shorting_items|181408856|99388336|39fc21fd-4a02-4fc0-9493-74659eeee32f|cc887c8c-2048-44e4-917f-455e028edeb4",
+          "On purpose."
+        ],
+        [
+          "shorting_items|181408856|99388336|80384837-9667-49c7-8908-bde3ee86fef3|cc887c8c-2048-44e4-917f-455e028edeb4",
+          "On purpose."
         ]
       ],
       "meta": {
