@@ -60,6 +60,10 @@
       ],
       "drc_exclusions": [
         [
+          "copper_edge_clearance|110850000|74300000|9ca66f8d-ead2-4b4b-ae82-4754018782dd|f247e93e-ce48-4018-8197-07cd0e53dd51",
+          "Aesthetic, no problem with DFM."
+        ],
+        [
           "copper_edge_clearance|199900000|100000000|9ca66f8d-ead2-4b4b-ae82-4754018782dd|fd5b937b-32ac-4951-9e4d-a95e1dea5cb4",
           "Aesthetic, no impact on performance. Does not impact DFM."
         ]
