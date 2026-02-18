@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP3426A0T-E_SN
+D Microchip MCP3426A0T-E/SN, 16 bit Serial ADC, Differential Input, 8-Pin SOIC
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en546216
+$ENDCMP
+#
+#End Doc Library

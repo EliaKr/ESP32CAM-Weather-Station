@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS63070RNMR
+D Wide Input Voltage (2V-16V) Buck-Boost Converter
+K
+F http://www.ti.com/lit/gpn/tps63070
+$ENDCMP
+#
+#End Doc Library

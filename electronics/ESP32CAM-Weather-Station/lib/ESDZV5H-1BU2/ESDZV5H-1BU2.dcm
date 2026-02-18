@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESDZV5H-1BU2
+D Ultra low clamping single line bidirectional ESD protection
+K
+F https://www.st.com/resource/en/datasheet/esdzv5h-1bu2.pdf
+$ENDCMP
+#
+#End Doc Library

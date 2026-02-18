@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TS18-5-25-SL-260-SMT-TR
+D TS18-5-25-SL-260-SMT-TR - 5 x 5 mm, 2.5 mm Actuator Height, 260 gf, Silver, Surface Mount, TR, SPST, Tactile Switch
+K
+F https://www.sameskydevices.com/product/resource/TS18-5-25-SL-260-SMT-TR.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ24093DGQR
+D 1A, Single-Input, Single-Cell Li-Ion Battery Charger with Operation Over JEITA and 100k NTC
+K
+F http://www.ti.com/lit/gpn/BQ24093
+$ENDCMP
+#
+#End Doc Library
