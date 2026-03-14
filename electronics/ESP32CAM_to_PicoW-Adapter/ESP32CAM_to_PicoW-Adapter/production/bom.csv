@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+A1,RaspberryPi_Pico_Common_THT,1,RaspberryPi_Pico_W,
+D1,D_DO-41_SOD81_P10.16mm_Horizontal,1,1N5818,
+U1,ESP32-CAM,1,ESP32-CAM,
