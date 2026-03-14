@@ -417,17 +417,6 @@
 			(layer "F.SilkS")
 			(uuid "ebc53276-f91b-45ad-9b77-9107e5fc674c")
 		)
-		(fp_text user "ESP32-CAM"
-			(at -8.5 23 90)
-			(layer "F.SilkS")
-			(uuid "b8adaf9d-e14e-467e-99ac-01831bfaef43")
-			(effects
-				(font
-					(size 1.72 1.72)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "P$1" thru_hole oval
 			(at -11.43 -10.16 90)
 			(size 2.8448 1.4224)
