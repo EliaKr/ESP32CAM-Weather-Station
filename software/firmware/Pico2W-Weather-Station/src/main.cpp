@@ -4,6 +4,8 @@
 #include <MCP342x.h>
 #include <Adafruit_VEML7700.h>
 #include <Adafruit_SGP41.h>
+#include <VOCGasIndexAlgorithm.h>
+#include <NOxGasIndexAlgorithm.h>
 
 // -------------------- BME688 (Adafruit_BME680) --------------------
 static const uint8_t BME_ADDR = 0x76;
@@ -23,16 +25,18 @@ static const float VBAT_RBOT_OHMS   = 20000.0f;
 static const float VSOLAR_RTOP_OHMS = 110000.0f;
 static const float VSOLAR_RBOT_OHMS = 10000.0f;
 
-static const float VBAT_DIVIDER  = (VBAT_RTOP_OHMS + VBAT_RBOT_OHMS) / VBAT_RBOT_OHMS;     // 2.5
+static const float VBAT_DIVIDER  = (VBAT_RTOP_OHMS + VBAT_RBOT_OHMS) / VBAT_RBOT_OHMS;        // 2.5
 static const float VSOLAR_DIVIDER = (VSOLAR_RTOP_OHMS + VSOLAR_RBOT_OHMS) / VSOLAR_RBOT_OHMS; // 12.0
 
 // -------------------- VEML7700 (Adafruit_VEML7700) --------------------
 static const uint8_t VEML7700_ADDR = 0x10; // default
 Adafruit_VEML7700 veml = Adafruit_VEML7700();
 
-// -------------------- SGP41 (Adafruit_SGP41) --------------------
+// -------------------- SGP41 (Adafruit_SGP41) + Gas Index Algorithm --------------------
 static const uint8_t SGP41_ADDR = 0x59; // default
 Adafruit_SGP41 sgp;
+VOCGasIndexAlgorithm vocAlgorithm;
+NOxGasIndexAlgorithm noxAlgorithm;
 
 // Volts per code for MCP342x using its internal full-scale of +/-2.048V / gain.
 static float mcpVoltsPerCode(const MCP342x::Resolution &res, const MCP342x::Gain &gain) {
@@ -62,7 +66,7 @@ static bool readMcpRaw(MCP342x::Channel ch, long &valueOut) {
 }
 
 static void printCsvHeader() {
-  Serial.println(F("ms,temp_c,hum_pct,press_hpa,gas_ohms,alt_m,vbat_v,vsolar_v,als_lux,white,sgp41_sraw_voc,sgp41_sraw_nox"));
+  Serial.println(F("ms,temp_c,hum_pct,press_hpa,gas_ohms,alt_m,vbat_v,vsolar_v,als_lux,white,sgp41_sraw_voc,sgp41_sraw_nox,sgp41_voc_index,sgp41_nox_index"));
 }
 
 void setup() {
@@ -123,15 +127,31 @@ void setup() {
   Serial.print(F("# sgp41_addr=0x"));
   Serial.println(SGP41_ADDR, HEX);
 
-  // Execute conditioning
-  uint16_t conditioning_sraw_voc = 0;
-  if (!sgp.executeConditioning(&conditioning_sraw_voc)) {
-    Serial.println(F("# error: sgp41 conditioning failed"));
-    while (true) { delay(1000); }
+  Serial.println(F("# note: voc index needs ~60s, nox index ~300s learning"));
+
+  // Conditioning loop (10 seconds) WITH COMPENSATION using BME temp+RH.
+  Serial.println(F("# sgp41 conditioning (10s, compensated with BME688)"));
+  for (uint8_t i = 0; i < 10; i++) {
+    uint16_t sraw_voc = 0;
+
+    if (!bme.performReading()) {
+      Serial.println(F("# error: bme.performReading() failed during conditioning"));
+    } else {
+      const float tC = bme.temperature;
+      const float rh = bme.humidity;
+
+      // Pass compensation: (RH %, Temp C)
+      if (!sgp.executeConditioning(&sraw_voc, rh, tC)) {
+        Serial.println(F("# error: sgp41 conditioning failed"));
+      } else {
+        // Feed voc algorithm so it can start learning immediately.
+        (void)vocAlgorithm.process(sraw_voc);
+      }
+    }
+
+    delay(1000);
   }
-  Serial.print(F("# sgp41_conditioning_sraw_voc=0x"));
-  Serial.println(conditioning_sraw_voc, HEX);
-  delay(7000);
+  Serial.println(F("# sgp41 conditioning done"));
 
   Serial.print(F("# mcp_res_bits="));
   Serial.print((int)ADC_RES);
@@ -152,7 +172,7 @@ void loop() {
   // --- BME688 reading ---
   if (!bme.performReading()) {
     Serial.print(ms);
-    Serial.println(F(",,,,,,,,,,,"));
+    Serial.println(F(",,,,,,,,,,,,,,"));
     delay(1000);
     return;
   }
@@ -179,9 +199,16 @@ void loop() {
   const float alsLux = veml.readLux();
   const uint16_t white = veml.readWhite();
 
-  // --- SGP41 readings (sRAW signals) ---
+  // --- SGP41 readings + indices (COMPENSATED with BME temp+RH) ---
   uint16_t srawVoc = 0, srawNox = 0;
+  int32_t vocIndex = -1;
+  int32_t noxIndex = -1;
+
   const bool sgpOk = sgp.measureRawSignals(&srawVoc, &srawNox, humPct, tempC);
+  if (sgpOk) {
+    vocIndex = vocAlgorithm.process(srawVoc);
+    noxIndex = noxAlgorithm.process(srawNox);
+  }
 
   // CSV row
   Serial.print(ms);            Serial.print(',');
@@ -191,26 +218,28 @@ void loop() {
   Serial.print(gasOhms);       Serial.print(',');
   Serial.print(altM, 2);       Serial.print(',');
 
-  if (isnan(vbatV)) Serial.print(F(""));
-  else Serial.print(vbatV, 6);
+  if (isnan(vbatV)) Serial.print(F("")); else Serial.print(vbatV, 6);
   Serial.print(',');
 
-  if (isnan(vsolarV)) Serial.print(F(""));
-  else Serial.print(vsolarV, 6);
+  if (isnan(vsolarV)) Serial.print(F("")); else Serial.print(vsolarV, 6);
   Serial.print(',');
 
-  if (isnan(alsLux)) Serial.print(F(""));
-  else Serial.print(alsLux, 2);
+  if (isnan(alsLux)) Serial.print(F("")); else Serial.print(alsLux, 2);
   Serial.print(',');
 
   Serial.print(white);
   Serial.print(',');
 
   if (!sgpOk) {
-    Serial.print(F("")); Serial.print(','); Serial.print(F(""));
+    Serial.print(F("")); Serial.print(','); // sraw voc
+    Serial.print(F("")); Serial.print(','); // sraw nox
+    Serial.print(F("")); Serial.print(','); // voc index
+    Serial.print(F(""));                   // nox index
   } else {
-    Serial.print(srawVoc); Serial.print(',');
-    Serial.print(srawNox);
+    Serial.print(srawVoc);  Serial.print(',');
+    Serial.print(srawNox);  Serial.print(',');
+    Serial.print(vocIndex); Serial.print(',');
+    Serial.print(noxIndex);
   }
 
   Serial.println();
