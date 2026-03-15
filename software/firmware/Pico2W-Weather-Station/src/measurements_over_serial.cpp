@@ -1,5 +1,5 @@
-//#define TEST_OVER_SERIAL
-#ifdef TEST_OVER_SERIAL
+//#define MEASUREMENTS_OVER_SERIAL
+#ifdef MEASUREMENTS_OVER_SERIAL
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_BME680.h>
@@ -248,4 +248,4 @@ void loop() {
   delay(1000);
 }
 
-#endif // TEST_OVER_SERIAL
+#endif // MEASUREMENTS_OVER_SERIAL

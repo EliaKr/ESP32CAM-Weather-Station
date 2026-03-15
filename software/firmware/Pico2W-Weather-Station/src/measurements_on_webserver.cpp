@@ -1,3 +1,6 @@
+//#define MEASUREMENTS_ON_WEBSERVER
+#ifdef MEASUREMENTS_ON_WEBSERVER
+
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_BME680.h>
@@ -305,3 +308,5 @@ void loop() {
   Serial.println();
   delay(1000);
 }
+
+#endif // MEASUREMENTS_ON_WEBSERVER
