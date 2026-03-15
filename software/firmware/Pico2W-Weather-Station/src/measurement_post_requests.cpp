@@ -1,6 +1,8 @@
 #define MEASUREMENT_POST_REQUESTS
 #ifdef MEASUREMENT_POST_REQUESTS
 
+#define MEASUREMENT_INTERVAL_MS 60000
+
 #include <Arduino.h>
 #include <Wire.h>
 
@@ -354,6 +356,8 @@ void loop() {
   const Sample s = readSample();
   const String body = buildJson(s);
   (void)postJsonHmac(body);
+
+  delay(MEASUREMENT_INTERVAL_MS);   
 }
 
 #endif
