@@ -5,3 +5,5 @@
 .vscode/ipch
 
 include/wificredentials.h
+include/client_config.h
+include/server_tls_ca.h
