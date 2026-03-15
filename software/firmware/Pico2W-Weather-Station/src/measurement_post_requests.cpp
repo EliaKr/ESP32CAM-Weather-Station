@@ -1,7 +1,15 @@
 #define MEASUREMENT_POST_REQUESTS
 #ifdef MEASUREMENT_POST_REQUESTS
 
-#define MEASUREMENT_INTERVAL_MS 60000
+// ===================== User options =====================
+// Measurement cadence (time between posts)
+#define MEASUREMENT_INTERVAL_MS 10000
+
+// Low power between measurements:
+// 0 = keep WiFi on, simple delay
+// 1 = turn WiFi off between measurements (saves a lot of power)
+#define USE_LOW_POWER_BETWEEN_MEASUREMENTS 1
+// ========================================================
 
 #include <Arduino.h>
 #include <Wire.h>
@@ -149,13 +157,67 @@ static void wifiConnect() {
 
   if (WiFi.status() == WL_CONNECTED) {
     Serial.print(F("# wifi_ok ip=")); Serial.println(WiFi.localIP());
-    Serial.print(F("# gw="));         Serial.println(WiFi.gatewayIP());
-    Serial.print(F("# mask="));       Serial.println(WiFi.subnetMask());
-    Serial.print(F("# dns="));        Serial.println(WiFi.dnsIP());
     Serial.print(F("# rssi="));       Serial.println(WiFi.RSSI());
   } else {
     Serial.println(F("# wifi_failed"));
   }
+}
+
+static void wifiOff() {
+#if USE_LOW_POWER_BETWEEN_MEASUREMENTS
+  WiFi.disconnect(true);
+  delay(50);
+  WiFi.mode(WIFI_OFF);
+  delay(50);
+#endif
+}
+
+// -------------------- Sensor power behaviors --------------------
+static void vemlShutdown(bool enable) {
+  if (!g_veml_ok) return;
+  // Adafruit_VEML7700 provides enable/disable via power-save/shutdown in most versions.
+  // `enable(false)` puts it into shutdown (very low current).
+  veml.enable(!enable ? true : false); // placeholder safety if library differs
+}
+
+// More robust: use the API that exists in Adafruit_VEML7700 v2.x
+static void vemlSetEnabled(bool on) {
+  if (!g_veml_ok) return;
+  // In Adafruit VEML7700 Library 2.1.x there is: veml.enable(bool)
+  veml.enable(on);
+}
+
+// BME forced-mode only:
+// Adafruit_BME680 is already forced-mode when you call performReading().
+// The key is: do NOT use continuous mode loops; just call performReading() once per cycle.
+
+static void sensorsPreSleep() {
+  // Put VEML into shutdown between measurements
+  vemlSetEnabled(false);
+}
+
+static void sensorsPostWake() {
+  // Re-enable VEML
+  vemlSetEnabled(true);
+  delay(5);
+}
+
+static void waitBetweenMeasurements() {
+#if USE_LOW_POWER_BETWEEN_MEASUREMENTS
+  sensorsPreSleep();
+  wifiOff();
+#endif
+
+  Serial.print(F("# sleep_ms="));
+  Serial.println((uint32_t)MEASUREMENT_INTERVAL_MS);
+  Serial.flush();
+
+  delay(MEASUREMENT_INTERVAL_MS);
+
+#if USE_LOW_POWER_BETWEEN_MEASUREMENTS
+  // WiFi is re-enabled in loop() before reconnect
+  sensorsPostWake();
+#endif
 }
 
 // -------------------- Sampling --------------------
@@ -178,7 +240,7 @@ static Sample readSample() {
   Sample s;
   s.ms = millis();
 
-  // BME
+  // BME forced-mode: performReading() triggers a single measurement.
   if (g_bme_ok && bme.performReading()) {
     s.tempC = bme.temperature;
     s.humPct = bme.humidity;
@@ -187,7 +249,7 @@ static Sample readSample() {
     s.altM = bme.readAltitude(1013.25f);
   }
 
-  // MCP
+  // MCP one-shot conversions only when needed
   long vbatRaw = 0, vsolarRaw = 0;
   const bool ok1 = g_mcp_ok && readMcpRaw(MCP342x::channel1, vbatRaw);
   const bool ok2 = g_mcp_ok && readMcpRaw(MCP342x::channel2, vsolarRaw);
@@ -197,7 +259,7 @@ static Sample readSample() {
   s.vbatV   = isnan(vbat_adc)   ? NAN : vbat_adc * VBAT_DIVIDER;
   s.vsolarV = isnan(vsolar_adc) ? NAN : vsolar_adc * VSOLAR_DIVIDER;
 
-  // VEML
+  // VEML (only read if enabled/present)
   if (g_veml_ok) {
     s.alsLux = veml.readLux();
     s.white = veml.readWhite();
@@ -248,8 +310,7 @@ static String buildJson(const Sample &s) {
 static bool postJsonHmac(const String &jsonBody) {
   if (WiFi.status() != WL_CONNECTED) return false;
 
-  // If your server requires timestamp, add NTP. Otherwise set REQUIRE_TIMESTAMP=False server-side.
-  const uint32_t ts = 0;
+  const uint32_t ts = 0; // set REQUIRE_TIMESTAMP=False server-side unless you add NTP
   const String sig = hmacSha256Hex(AUTH_TOKEN, (const uint8_t*)jsonBody.c_str(), jsonBody.length());
 
   HTTPClient http;
@@ -303,6 +364,8 @@ void setup() {
   g_bme_ok = bme.begin(BME_ADDR);
   if (!g_bme_ok) Serial.println(F("# warn: bme missing"));
   else {
+    // Forced-mode only: performReading() triggers one measurement when called.
+    // Just configure oversampling + heater and DON'T run any continuous loop.
     bme.setTemperatureOversampling(BME680_OS_8X);
     bme.setHumidityOversampling(BME680_OS_2X);
     bme.setPressureOversampling(BME680_OS_4X);
@@ -317,10 +380,12 @@ void setup() {
   if (!g_mcp_ok) Serial.println(F("# warn: mcp3426 missing"));
 
   g_veml_ok = veml.begin();
-  if (!g_veml_ok) Serial.println(F("# warn: veml7700 missing"));
-  else {
+  if (!g_veml_ok) {
+    Serial.println(F("# warn: veml7700 missing"));
+  } else {
     veml.setIntegrationTime(VEML7700_IT_100MS);
     veml.setGain(VEML7700_GAIN_1);
+    vemlSetEnabled(true);
   }
 
   g_sgp_ok = sgp.begin();
@@ -340,6 +405,14 @@ void setup() {
 }
 
 void loop() {
+#if USE_LOW_POWER_BETWEEN_MEASUREMENTS
+  // If WiFi was turned off between cycles, turn it back on before reconnect.
+  if (WiFi.getMode() == WIFI_OFF) {
+    WiFi.mode(WIFI_STA);
+    delay(50);
+  }
+#endif
+
   if (WiFi.status() != WL_CONNECTED) {
     wifiConnect();
     delay(250);
@@ -357,7 +430,7 @@ void loop() {
   const String body = buildJson(s);
   (void)postJsonHmac(body);
 
-  delay(MEASUREMENT_INTERVAL_MS);   
+  waitBetweenMeasurements();
 }
 
 #endif
